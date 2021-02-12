@@ -1,0 +1,133 @@
+ERROR - 2021-02-11 16:50:43 --> Severity: Notice --> Undefined variable: icon_items /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 16:50:43 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 16:50:43 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 16:50:43 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 16:50:43 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 16:50:43 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 16:50:43 --> Severity: Notice --> Undefined variable: social_networks /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 16:50:43 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 16:53:41 --> Severity: Notice --> Undefined variable: social_networks /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 16:53:41 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 17:17:21 --> Severity: Notice --> Undefined variable: icon_items /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 17:17:21 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 17:17:21 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 17:17:21 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 17:17:21 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 17:17:21 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 17:17:21 --> Severity: Notice --> Undefined variable: social_networks /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 17:17:21 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 17:30:23 --> Severity: Notice --> Undefined variable: icon_items /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 17:30:23 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 17:30:23 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 17:30:23 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 17:30:23 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 17:30:23 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 17:30:23 --> Severity: Notice --> Undefined variable: social_networks /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 17:30:23 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 20:56:57 --> Severity: Notice --> Undefined variable: icon_items /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 20:56:57 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 20:56:57 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 20:56:57 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 20:56:57 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 20:56:57 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 20:56:57 --> Severity: Notice --> Undefined variable: social_networks /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 20:56:57 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 20:57:01 --> Severity: Notice --> Undefined variable: icon_items /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 20:57:01 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 20:57:01 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 20:57:01 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 20:57:01 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 20:57:01 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 20:57:01 --> Severity: Notice --> Undefined variable: social_networks /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 20:57:01 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 21:01:29 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 21:28:39 --> Severity: Notice --> Undefined variable: social_networks /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 21:28:39 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 22:24:19 --> Severity: Notice --> Undefined variable: social_networks /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 22:24:19 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-11 22:24:19 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:32:23 --> Severity: Notice --> Undefined variable: icon_items /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 23:32:23 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 18
+ERROR - 2021-02-11 23:32:23 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 23:32:23 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 23:32:23 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 23:32:23 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 23:32:23 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:38:03 --> Severity: error --> Exception: Call to undefined method Experiences::model() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Experiences.php 18
+ERROR - 2021-02-11 23:38:59 --> Severity: error --> Exception: Call to undefined method Experiences::model() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Experiences.php 18
+ERROR - 2021-02-11 23:39:04 --> Severity: error --> Exception: Call to undefined method Experiences::model() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Experiences.php 18
+ERROR - 2021-02-11 23:39:10 --> Severity: error --> Exception: Call to undefined method Experiences::model() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Experiences.php 18
+ERROR - 2021-02-11 23:39:10 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:41:44 --> Severity: error --> Exception: Call to undefined method Experiences::model() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Experiences.php 18
+ERROR - 2021-02-11 23:44:54 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:44:54 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:44:54 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 27
+ERROR - 2021-02-11 23:44:54 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 23:44:54 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 23:44:54 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 23:44:54 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 23:45:26 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:45:26 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:45:26 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 23:45:26 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 40
+ERROR - 2021-02-11 23:45:26 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 23:45:26 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 60
+ERROR - 2021-02-11 23:49:31 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:49:31 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:49:31 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 41
+ERROR - 2021-02-11 23:49:31 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 41
+ERROR - 2021-02-11 23:49:31 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 61
+ERROR - 2021-02-11 23:49:31 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 61
+ERROR - 2021-02-11 23:49:36 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:49:36 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:49:36 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 41
+ERROR - 2021-02-11 23:49:36 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 41
+ERROR - 2021-02-11 23:49:36 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 61
+ERROR - 2021-02-11 23:49:36 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 61
+ERROR - 2021-02-11 23:50:25 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:50:25 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:50:25 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 42
+ERROR - 2021-02-11 23:50:25 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 42
+ERROR - 2021-02-11 23:50:25 --> Severity: Notice --> Undefined variable: testimonials /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 62
+ERROR - 2021-02-11 23:50:25 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 62
+ERROR - 2021-02-11 23:51:33 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:51:33 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:51:47 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:12 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:12 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:12 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:21 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:21 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:21 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:25 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:25 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:52:25 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:53:54 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:53:55 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:53:55 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:53:55 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:53:57 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:53:57 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:53:57 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:53:57 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:54:25 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:54:25 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:54:27 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:54:27 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:56:48 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:56:48 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:56:48 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:56:52 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:56:52 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:56:52 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:56:52 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:56:52 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:56:52 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:57:17 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:57:17 --> 404 Page Not Found: /index
+ERROR - 2021-02-11 23:57:32 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:57:32 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:57:32 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:57:32 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23
+ERROR - 2021-02-11 23:57:32 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-11 23:57:32 --> Severity: Notice --> Undefined variable: item /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 23

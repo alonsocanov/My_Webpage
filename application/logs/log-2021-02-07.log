@@ -1,0 +1,108 @@
+ERROR - 2021-02-07 21:15:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:15:37 --> Unable to connect to the database
+ERROR - 2021-02-07 21:16:45 --> Not Found: /index
+ERROR - 2021-02-07 21:16:58 --> Not Found: /index
+ERROR - 2021-02-07 21:17:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:17:05 --> Unable to connect to the database
+ERROR - 2021-02-07 21:17:36 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:17:36 --> Unable to connect to the database
+ERROR - 2021-02-07 21:20:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:20:14 --> Unable to connect to the database
+ERROR - 2021-02-07 21:22:08 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:22:08 --> Unable to connect to the database
+ERROR - 2021-02-07 21:24:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:24:43 --> Unable to connect to the database
+ERROR - 2021-02-07 21:26:02 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:26:02 --> Unable to connect to the database
+ERROR - 2021-02-07 21:26:35 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:26:35 --> Unable to connect to the database
+ERROR - 2021-02-07 21:26:35 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:31:23 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:31:23 --> Unable to connect to the database
+ERROR - 2021-02-07 21:31:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:31:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:31:44 --> Unable to connect to the database
+ERROR - 2021-02-07 21:35:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:35:48 --> Unable to connect to the database
+ERROR - 2021-02-07 21:39:44 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:39:44 --> Unable to connect to the database
+ERROR - 2021-02-07 21:41:35 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:41:35 --> Unable to connect to the database
+ERROR - 2021-02-07 21:46:06 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:46:06 --> Unable to connect to the database
+ERROR - 2021-02-07 21:46:06 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 282
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> session_set_cookie_params(): Cannot change session cookie parameters when headers already sent /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 294
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 314
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 315
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 316
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 317
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 375
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:46:43 --> Unable to connect to the database
+ERROR - 2021-02-07 21:46:43 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/public/index.php:203) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 282
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> session_set_cookie_params(): Cannot change session cookie parameters when headers already sent /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 294
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 314
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 315
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 316
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 317
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 375
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:47:05 --> Unable to connect to the database
+ERROR - 2021-02-07 21:47:05 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/public/index.php:203) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:47:09 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:47:09 --> Unable to connect to the database
+ERROR - 2021-02-07 21:47:09 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 282
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> session_set_cookie_params(): Cannot change session cookie parameters when headers already sent /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 294
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 314
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 315
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 316
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 317
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> ini_set(): Headers already sent. You cannot change the session module's ini settings at this time /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Session/Session.php 375
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:47:28 --> Unable to connect to the database
+ERROR - 2021-02-07 21:47:28 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/public/index.php:205) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:47:47 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:47:47 --> Unable to connect to the database
+ERROR - 2021-02-07 21:47:47 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:47:57 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:47:57 --> Unable to connect to the database
+ERROR - 2021-02-07 21:47:57 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 21:49:10 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'manager'@'localhost' (using password: YES) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 21:49:10 --> Unable to connect to the database
+ERROR - 2021-02-07 21:49:10 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php:202) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 23:32:01 --> Severity: Warning --> mysqli::real_connect(): The server requested authentication method unknown to the client [caching_sha2_password] /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 23:32:01 --> Severity: Warning --> mysqli::real_connect(): (HY000/2054): The server requested authentication method unknown to the client /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 23:32:01 --> Unable to connect to the database
+ERROR - 2021-02-07 23:32:01 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 23:32:27 --> Severity: Warning --> mysqli::real_connect(): The server requested authentication method unknown to the client [caching_sha2_password] /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 23:32:27 --> Severity: Warning --> mysqli::real_connect(): (HY000/2054): The server requested authentication method unknown to the client /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/database/drivers/mysqli/mysqli_driver.php 203
+ERROR - 2021-02-07 23:32:27 --> Unable to connect to the database
+ERROR - 2021-02-07 23:32:27 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-07 23:32:55 --> Query error: No database selected - Invalid query: SELECT `data`
+FROM `ci_sessions`
+WHERE `id` = '8c7c0662c6a1497f46b394c0e1bd4049ccad9567'
+ERROR - 2021-02-07 23:32:55 --> Severity: Warning --> session_write_close(): Cannot call session save handler in a recursive manner Unknown 0
+ERROR - 2021-02-07 23:32:55 --> Severity: Warning --> session_write_close(): Failed to write session data using user defined save handler. (session.save_path: ) Unknown 0
+ERROR - 2021-02-07 23:33:22 --> Query error: Incorrect database name '' - Invalid query: SHOW TABLES FROM ``
+ERROR - 2021-02-07 23:33:43 --> Query error: Incorrect database name '' - Invalid query: SHOW TABLES FROM ``
+ERROR - 2021-02-07 23:36:37 --> Query error: Incorrect database name '' - Invalid query: SHOW TABLES FROM ``
+ERROR - 2021-02-07 23:36:40 --> Query error: Incorrect database name '' - Invalid query: SHOW TABLES FROM ``
+ERROR - 2021-02-07 23:38:27 --> Query error: Table 'alonso.ci_sessions' doesn't exist - Invalid query: SELECT 1
+FROM `ci_sessions`
+WHERE `id` = '8c7c0662c6a1497f46b394c0e1bd4049ccad9567'
+ERROR - 2021-02-07 23:38:29 --> Query error: Table 'alonso.ci_sessions' doesn't exist - Invalid query: SELECT 1
+FROM `ci_sessions`
+WHERE `id` = '8c7c0662c6a1497f46b394c0e1bd4049ccad9567'
+ERROR - 2021-02-07 23:40:03 --> Query error: Table 'alonso.ci_sessions' doesn't exist - Invalid query: SELECT 1
+FROM `ci_sessions`
+WHERE `id` = '8c7c0662c6a1497f46b394c0e1bd4049ccad9567'
+ERROR - 2021-02-07 23:40:06 --> Query error: Table 'alonso.ci_sessions' doesn't exist - Invalid query: SELECT 1
+FROM `ci_sessions`
+WHERE `id` = '8c7c0662c6a1497f46b394c0e1bd4049ccad9567'
+ERROR - 2021-02-07 23:46:59 --> 404 Page Not Found: /index
+ERROR - 2021-02-07 23:58:00 --> 404 Page Not Found: /index
+ERROR - 2021-02-07 23:58:00 --> 404 Page Not Found: /index
+ERROR - 2021-02-07 23:58:05 --> 404 Page Not Found: /index
