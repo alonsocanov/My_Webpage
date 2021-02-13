@@ -67,8 +67,8 @@
 								</div>
 
 								<div class="form-group">
-								<label>Description</label><span class="text-danger"></span>
-								<textarea class="form-control" id="message" name="message" rows="20" style="max-width: 100%;"><?=$experience->message?></textarea>
+								<label>Description</label>
+								<textarea class="form-control" id="content" name="content" placeholder="Enter content" rows="20" style="max-width: 100%;"><?=$experience->message?></textarea>
 							</div>
 
 
@@ -89,3 +89,20 @@
 	<!-- /.row -->
 </div>
 <!-- /#page-wrapper -->
+
+<script>
+
+	var callback = function(){
+	  // Handler when the DOM is fully loaded
+	  $('#content').summernote();
+	};
+
+	if (
+	    document.readyState === "complete" ||
+	    (document.readyState !== "loading" && !document.documentElement.doScroll)
+	) {
+	  callback();
+	} else {
+	  	document.addEventListener("DOMContentLoaded", callback);
+	}
+</script>
