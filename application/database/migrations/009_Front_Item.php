@@ -107,8 +107,6 @@ class Migration_Front_Item extends CI_Migration {
 		$data['faicon'] = 'fa-instagram';
 		$this->db->insert('front_item', $data);
 
-
-
 	}
 
 	public function down() {
