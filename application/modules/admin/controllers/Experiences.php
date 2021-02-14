@@ -65,7 +65,7 @@ class Experiences extends Admin_Controller {
 
 	public function delete($id) {
 		$this->load->model('experience');
-		$this->page_item->delete($id);
+		$this->front_item->delete($id);
 
 		redirect('/admin/experioences', 'refresh');
 	}

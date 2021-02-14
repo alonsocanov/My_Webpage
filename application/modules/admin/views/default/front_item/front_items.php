@@ -9,7 +9,7 @@
 		<div class="col-lg-12">
 			<div class="page-header users-header">
 				<h2>
-					Page Items
+					Front Page Items
 					<a  href="<?= base_url('admin/page_items/create') ?>" class="btn btn-success">Add a new</a>
 				</h2>
 			</div>
@@ -38,7 +38,7 @@
 						</div>
 						<div class="col-xs-9 text-right">
 							<div class="huge"><?= $page_items_count ?></div>
-							<div>Total PageItems</div>
+							<div>Total Page Items</div>
 						</div>
 					</div>
 				</div>
@@ -156,16 +156,16 @@
 								</tr>
 							</thead>
 							<tbody>
-								<?php if (count($page_items)): ?>
-									<?php foreach ($page_items as $key => $list): ?>
+								<?php if (count($front_items)): ?>
+									<?php foreach ($front_items as $key => $list): ?>
 										<tr class="odd gradeX">
 											<td><?=$list['title']?></td>
 											<td><?=$list['description']?></td>
 											<td><?=$kinds[$list['kind']]?></td>
 											<td><?=$list['last_update']?></td>
 											<td>
-												<a href="<?= base_url('admin/page_items/edit/'.$list['id']) ?>" class="btn btn-info">edit</a>
-												<a href="<?= base_url('admin/page_items/delete/'.$list['id']) ?>" class="btn btn-danger">delete</a>
+												<a href="<?= base_url('admin/front_items/edit/'.$list['id']) ?>" class="btn btn-info">edit</a>
+												<a href="<?= base_url('admin/front_items/delete/'.$list['id']) ?>" class="btn btn-danger">delete</a>
 											</td>
 										</tr>
 									<?php endforeach; ?>
@@ -176,7 +176,7 @@
 										<td>No data</td>
 										<td>No data</td>
 										<td>
-											<a  href="<?= base_url('admin/page_items/create') ?>" class="btn btn-success">Add a new</a>
+											<a  href="<?= base_url('admin/front_items/create') ?>" class="btn btn-success">Add a new</a>
 										</td>
 									</tr>
 								<?php endif; ?>

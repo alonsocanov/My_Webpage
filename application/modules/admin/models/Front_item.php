@@ -1,6 +1,6 @@
 <?php (defined('BASEPATH')) or exit('No direct script access allowed');
 
-class Page_item extends MY_Model {
+class Front_item extends MY_Model {
 
 	public function __construct() {
 		//overrides
@@ -27,7 +27,7 @@ class Page_item extends MY_Model {
 
 	public function count_icons()
 	{
-		$query = 'SELECT count(id) as count FROM page_item WHERE kind = 1';
+		$query = 'SELECT count(id) as count FROM front_item WHERE kind = 1';
 
 		//obtener en modo objeto
 		$result = $this->query($query);
