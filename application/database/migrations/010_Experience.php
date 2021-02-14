@@ -74,7 +74,7 @@ class Migration_Experience extends CI_Migration {
 		$data['start_date'] = 'May 2020';
 		$data['end_date'] = '';
 		$data['location'] = 'Leon, Gto';
-		$data['content'] = '';
+		$data['content'] = '<div class="page" title="Page 1"><div class="layoutArea"><div class="column"><ul><li><p>The objective is to extract key data from policy documents in order to generate a data base</p></li><li><p>Used Deep Learning and Image Processing techniques for document classification and data extraction</p></li><li><p>Facilitates workers’ data filling process into the system</p></li></ul></div></div></div>';
 		$this->db->insert('experience', $data);
 
 		$data['company'] = 'AFD Technologies';
@@ -85,7 +85,7 @@ class Migration_Experience extends CI_Migration {
 		$data['start_date'] = 'May 2020';
 		$data['end_date'] = '';
 		$data['location'] = 'Paris, France';
-		$data['content'] = '<div class="page" title="Page 1"><div class="layoutArea"><div class="column"><ul><li><p><font color="#5d5d5d" face="SourceSansPro-Regular-Identity-H"><span style="caret-color: rgb(0, 0, 0); font-size: 11pt;">The goal of the project was to detect alarm anomalies on&nbsp;</span><span style="caret-color: rgb(0, 0, 0); font-size: 14.666666984558105px;">telecommunication</span><span style="caret-color: rgb(0, 0, 0); font-size: 11pt;">&nbsp;services provided by Orange France</span></font></p></li><li style="caret-color: rgb(0, 0, 0); color: rgb(93, 93, 93); font-size: 11pt; font-family: SourceSansPro-Regular-Identity-H;"><p><span style="font-size: 11pt;">Used unsupervised algorithms for anomaly detection of alarm systems</span></p></li><li style="caret-color: rgb(0, 0, 0); color: rgb(93, 93, 93); font-size: 11pt; font-family: SourceSansPro-Regular-Identity-H;"><p><span style="font-size: 11pt;">Evaluated unsupervised algorithms with statistical criteria in order to deter</span><span style="font-size: 11pt;">mine the best-one according to data set</span></p></li><li style="caret-color: rgb(0, 0, 0); color: rgb(93, 93, 93); font-size: 11pt; font-family: SourceSansPro-Regular-Identity-H;"><p><span style="font-size: 11pt;">The models were implemented for testing phase</span></p></li><li style="caret-color: rgb(0, 0, 0); color: rgb(93, 93, 93); font-size: 11pt; font-family: SourceSansPro-Regular-Identity-H;"><p><span style="font-size: 11pt;">The time that the supervision team took to detect certain anomalies was&nbsp;</span><span style="font-size: 11pt;">reduced</span></p></li></ul></div></div></div>';
+		$data['content'] = '<div class="page" title="Page 1"><div class="layoutArea"><p></p><p></p><ul><ul></ul></ul><p></p><p></p><p></p><ul><ul></ul></ul><p></p><p></p><ul></ul><p></p><ul><li>The goal of the project was to detect alarm anomalies on&nbsp;telecommunication&nbsp;services provided by Orange France</li></ul><p></p><ul></ul><p></p><ul><li>Used unsupervised algorithms for anomaly detection of alarm systems</li></ul><p></p><ul></ul><p></p><ul><li>Evaluated unsupervised algorithms with statistical criteria in order to determine the best-one according to data set</li></ul><p></p><ul></ul><p></p><ul><li>The models were implemented for testing phase</li></ul><p></p><ul></ul><p></p><ul><li>The time that the supervision team took to detect certain anomalies was&nbsp;reduced</li></ul></div></div>';
 		$this->db->insert('experience', $data);
 
 		$data['company'] = 'Electronics and Electromagnetism Laboratory (L2E)';
@@ -96,7 +96,7 @@ class Migration_Experience extends CI_Migration {
 		$data['start_date'] = 'May 2020';
 		$data['end_date'] = '';
 		$data['location'] = 'Paris, France';
-		$data['content'] = '';
+		$data['content'] = '<div class="page" title="Page 1"><div class="layoutArea"><div class="column"><ul><li><p>The objective was to determine trees position on forests using electromagnetic waves</p></li><li><p>Applied unbiased estimators in order to find the optimal aerial distribution with a certain phase and modulus</p></li><li><p>Accomplished to recreate Radar Imaging from obtained data for low density tree distribution</p></li></ul></div></div></div>';
 		$this->db->insert('experience', $data);
 
 	}
