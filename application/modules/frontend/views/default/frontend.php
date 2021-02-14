@@ -18,7 +18,7 @@
 	    <?php foreach ($icon_items as $item): ?>
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            <a href="<?= $item['url']?>">
+            <a href="<?= base_url($item['url'])?>">
               <div class="features-icons-icon d-flex">
                 <i class="fa <?= $item['faicon'] ?> m-auto text-primary"></i>
               </div>

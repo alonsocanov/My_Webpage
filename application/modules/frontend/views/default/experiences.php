@@ -23,6 +23,7 @@
             <p class="lead mb-0"><?= $experience['position'] ?></p>
             <h6><?= $experience['start_date']?> - <?= $experience['end_date'] ?></h6>
             <h6><?= $experience['location']?></h6>
+            <?= $experience['content'] ?>
           </div>
         </div>
         <?php endforeach; ?>

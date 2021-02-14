@@ -32,7 +32,7 @@
         <a style="display: contents;" class="navbar-brand" href="<?=base_url()?>"><img src="<?= base_url('assets/frontend/img/logo_header.png') ?>" class="logo-light" alt="#"> <?= $this->config->item('project_name') ?></a>
       </div>
       <div class="col-lg-8 h-100 text-center text-lg-right my-auto">
-        <a class="btn btn-default" href="<?=base_url('/frontend/experiences')?>">Experience</a>
+        <a class="btn btn-default" href="<?=base_url('frontend/experiences')?>">Experience</a>
         <a class="btn btn-default" href="<?=base_url()?>">Projects</a>
         <a class="btn btn-default" href="<?=base_url()?>">Education</a>
         <a class="btn btn-primary" href="<?=base_url('auth')?>">Sign In</a>

@@ -67,7 +67,7 @@ class Migration_Page_Item extends CI_Migration {
 		$data['title'] = 'Education';
 		$data['description'] = 'Academic Formation';
 		$data['kind'] = 1;
-		$data['url'] = 'frontend/education';
+		$data['url'] = 'education';
 		$data['faicon'] = 'fa-graduation-cap';
 		$this->db->insert('page_item', $data);
 
