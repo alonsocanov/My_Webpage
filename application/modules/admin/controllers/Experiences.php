@@ -35,7 +35,7 @@ class Experiences extends Admin_Controller {
 			$data['company'] = $this->input->post('company');
 			$data['position'] = $this->input->post('position');
 			$data['priority'] = $this->input->post('priority');
-			$data['image_name'] = $this->input->post('image_name');
+			$data['logo'] = $this->input->post('logo');
 			$data['start_date'] = $this->input->post('start_date');
 			$data['end_date'] = $this->input->post('end_date');
 			$data['location'] = $this->input->post('location');

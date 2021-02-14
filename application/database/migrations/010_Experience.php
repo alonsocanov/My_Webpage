@@ -11,7 +11,7 @@ class Migration_Experience extends CI_Migration {
 			),
 			'company' => array(
 				'type' => 'VARCHAR',
-				'constraint' => 32
+				'constraint' => 64
 			),
 			'position' => array(
 				'type' => 'VARCHAR',
@@ -24,9 +24,14 @@ class Migration_Experience extends CI_Migration {
 				'constraint' => 11,
 				'null' => TRUE
 			),
-			'image_name' => array(
+			'logo' => array(
 				'type' => 'VARCHAR',
-				'constraint' => 128,
+				'constraint' => '128',
+				'null' => TRUE
+			),
+			'logo_url' => array(
+				'type' => 'VARCHAR',
+				'constraint' => '254',
 				'null' => TRUE
 			),
 			'start_date' => array(
@@ -44,7 +49,7 @@ class Migration_Experience extends CI_Migration {
 				'constraint' => 32,
 				'null' => TRUE
 			),
-			'message' => array(
+			'content' => array(
 				'type' => 'LONGTEXT',
 				'null' => TRUE
 			),
@@ -64,10 +69,34 @@ class Migration_Experience extends CI_Migration {
 		$data['company'] = 'Ixaya';
 		$data['position'] = 'Deep Learning and Web developer';
 		$data['priority'] = 1;
-		$data['image_name'] = '';
+		$data['logo'] = '';
+		$data['logo_url'] = '';
 		$data['start_date'] = 'May 2020';
 		$data['end_date'] = '';
 		$data['location'] = 'Leon, Gto';
+		$data['content'] = '';
+		$this->db->insert('experience', $data);
+
+		$data['company'] = 'AFD Technologies';
+		$data['position'] = 'Machine Learning Project Manager';
+		$data['priority'] = 1;
+		$data['logo'] = '';
+		$data['logo_url'] = '';
+		$data['start_date'] = 'May 2020';
+		$data['end_date'] = '';
+		$data['location'] = 'Paris, France';
+		$data['content'] = '';
+		$this->db->insert('experience', $data);
+
+		$data['company'] = 'Electronics and Electromagnetism Laboratory (L2E)';
+		$data['position'] = 'Reserch Internship';
+		$data['priority'] = 1;
+		$data['logo'] = '';
+		$data['logo_url'] = '';
+		$data['start_date'] = 'May 2020';
+		$data['end_date'] = '';
+		$data['location'] = 'Paris, France';
+		$data['content'] = '';
 		$this->db->insert('experience', $data);
 
 	}

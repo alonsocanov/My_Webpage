@@ -54,8 +54,8 @@
 									</select>
 								</div>
 								<div class="form-group">
-									<label>Image Name</label>
-									<input class="form-control" placeholder="Enter Image" id="image_name" name="image_name" value="<?=$experience->image_name?>">
+									<label>Logo</label>
+									<input class="form-control" placeholder="Upload Company's Logo" id="logo" name="logo" value="<?=$experience->logo?>">
 								</div>
 								<div class="form-group">
 									<label>Start date</label>
