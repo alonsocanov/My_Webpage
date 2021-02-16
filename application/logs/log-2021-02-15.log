@@ -448,3 +448,8 @@ ERROR - 2021-02-15 17:41:39 --> Query error: You have an error in your SQL synta
 ) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
 ERROR - 2021-02-15 17:56:04 --> 404 Page Not Found: /index
 ERROR - 2021-02-15 17:56:04 --> 404 Page Not Found: /index
+ERROR - 2021-02-15 18:05:13 --> Query error: Table 'alonso.project' doesn't exist - Invalid query: SELECT *
+FROM `project`
+ERROR - 2021-02-15 18:05:16 --> Severity: Notice --> Undefined index: company /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-15 18:05:16 --> Severity: Notice --> Undefined index: company /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-15 18:05:16 --> Severity: Notice --> Undefined index: company /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22

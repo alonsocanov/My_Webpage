@@ -33,8 +33,8 @@
       </div>
       <div class="col-lg-8 h-100 text-center text-lg-right my-auto">
         <a class="btn btn-default" href="<?=base_url('frontend/experiences')?>">Experience</a>
-        <a class="btn btn-default" href="<?=base_url()?>">Projects</a>
-        <a class="btn btn-default" href="<?=base_url()?>">Education</a>
+        <a class="btn btn-default" href="<?=base_url('frontend/projects')?>">Projects</a>
+        <a class="btn btn-default" href="<?=base_url('frontend/education')?>">Education</a>
         <a class="btn btn-primary" href="<?=base_url('auth')?>">Sign In</a>
       </div>
     </div>

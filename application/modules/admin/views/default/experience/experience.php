@@ -31,13 +31,22 @@
 						<?php endif; ?>
 						<div class="col-lg-6">
 							<form role="form" method="POST" action="<?=base_url('admin/experiences/edit/'.$experience->id)?>">
-								<div class="form-group">
-									<label>Company</label>
-									<input class="form-control" placeholder="Enter company" id="company"  value="<?=$experience->company?>" name="company">
+							<div class="form-group">
+									<label>Kind</label>
+									<select class="form-control" name="kind" id="kind">
+										<?php foreach ($kind as $key => $list): ?>
+											<option value="<?=$key?>" <?= ($experience->kind == $key) ? 'selected' : '';?> ><?=$list?></option>
+										<?php endforeach; ?>
+									</select>
 								</div>
 								<div class="form-group">
-									<label>Position</label>
-									<input class="form-control" placeholder="Enter position" id="position" name="position"  value="<?=$experience->position?>">
+									<label>Title</label>
+									<input class="form-control" placeholder="Enter company" id="title"  name="title" value="<?=$experience->title?>" >
+								</div>
+
+								<div class="form-group">
+									<label>Description</label>
+									<input class="form-control" placeholder="Enter description" id="description" name="description"  value="<?=$experience->description?>">
 								</div>
 
 								<div class="form-group">
@@ -54,8 +63,20 @@
 									</select>
 								</div>
 								<div class="form-group">
-									<label>Logo</label>
-									<input class="form-control" placeholder="Upload Company's Logo" id="logo" name="logo" value="<?=$experience->logo?>">
+									<label>Image</label>
+									<input class="form-control" placeholder="Upload Image" id="image" name="image" value="<?=$experience->image?>">
+								</div>
+								<div class="form-group">
+									<label>Video</label>
+									<input class="form-control" placeholder="Upload Image" id="video" name="video" value="<?=$experience->video?>">
+								</div>
+								<div class="form-group">
+									<label>Url</label>
+									<input class="form-control" placeholder="Enter url" id="url" name="url"  value="<?=$experience->url?>">
+								</div>
+								<div class="form-group">
+									<label>faicon</label>
+									<input class="form-control" placeholder="Enter url" id="faicon" name="faicon"  value="<?=$experience->faicon?>">
 								</div>
 								<div class="form-group">
 									<label>Start date</label>

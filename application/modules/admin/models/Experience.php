@@ -19,6 +19,7 @@ class Experience extends MY_Model {
 	{
 
 		$priority = [];
+		$priority[0] = 'Select an Option';
 		$priority[1] = 'Top';
 		$priority[2] = 'Middle';
 		$priority[3] = 'Just in there';
@@ -26,5 +27,19 @@ class Experience extends MY_Model {
 
 
 		return $priority;
+	}
+
+	public function kind()
+	{
+		$kind = [];
+		$kind[0] = 'Select an Option';
+		$kind[1] = 'Profesional Experience';
+		$kind[2] = 'Projects';
+		$kind[3] = 'Academic';
+		$kind[4] = 'Skills';
+		$kind[5] = 'Other';
+
+
+		return $kind;
 	}
 }

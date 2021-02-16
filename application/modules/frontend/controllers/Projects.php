@@ -15,8 +15,8 @@ class Projects extends MY_Controller {
 
     public function index()
     {
-        $this->load->model('admin/project');
-        $data['projects'] = $this->project->get_all();
+        $this->load->model('admin/experience');
+        $data['projects'] = $this->experience->get_all();
         $this->load_view('projects', $data);
     }
 

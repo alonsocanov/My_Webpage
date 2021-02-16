@@ -61,7 +61,8 @@
 							<thead>
 								<tr>
 									<th>Company</th>
-									<th>Position</th>
+									<th>Kind</th>
+									<th>Description</th>
 									<th>Priority</th>
 									<th>Last Update</th>
 									<th>Action</th>
@@ -71,8 +72,9 @@
 								<?php if (count($experiences)): ?>
 									<?php foreach ($experiences as $key => $list): ?>
 										<tr class="odd gradeX">
-											<td><?=$list['company']?></td>
-											<td><?=$list['position']?></td>
+											<td><?=$list['title']?></td>
+											<td><?=$list['kind']?></td>
+											<td><?=$list['description']?></td>
 											<td><?=$priorities[$list['priority']]?></td>
 											<td><?=$list['last_update']?></td>
 											<td>
@@ -87,6 +89,7 @@
 										<td>No data</td>
 										<td>No data</td>
 										<td>No data</td>
+										<td>No data</td>
 										<td>
 											<a  href="<?= base_url('admin/experiences/create') ?>" class="btn btn-success">Add a new</a>
 										</td>
@@ -96,7 +99,8 @@
 							<tfooter>
 								<tr>
 									<th>Company</th>
-									<th>Position</th>
+									<th>Description</th>
+									<td>Kind</td>
 									<th>Priority</th>
 									<th>Last Update</th>
 									<th>Action</th>

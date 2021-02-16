@@ -1,0 +1,54 @@
+ERROR - 2021-02-16 00:19:56 --> Query error: Table 'alonso.project' doesn't exist - Invalid query: SELECT *
+FROM `project`
+ERROR - 2021-02-16 00:21:56 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:21:56 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:21:56 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:22:00 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:22:00 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:22:03 --> Severity: Notice --> Undefined index: company /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 74
+ERROR - 2021-02-16 00:22:03 --> Severity: Notice --> Undefined index: company /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 74
+ERROR - 2021-02-16 00:22:03 --> Severity: Notice --> Undefined index: company /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 74
+ERROR - 2021-02-16 00:22:03 --> Severity: Notice --> Undefined index: company /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 74
+ERROR - 2021-02-16 00:22:03 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:22:03 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:22:28 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:22:28 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:22:44 --> Severity: Notice --> Undefined property: stdClass::$company /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 36
+ERROR - 2021-02-16 00:22:44 --> Severity: Notice --> Undefined property: stdClass::$logo /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 58
+ERROR - 2021-02-16 00:22:44 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:22:44 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:23:48 --> Severity: Notice --> Undefined property: stdClass::$company /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 36
+ERROR - 2021-02-16 00:23:48 --> Severity: Notice --> Undefined property: stdClass::$logo /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 58
+ERROR - 2021-02-16 00:23:48 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:23:48 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:24:06 --> Severity: Notice --> Undefined property: stdClass::$logo /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 58
+ERROR - 2021-02-16 00:24:06 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:24:06 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:24:43 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:24:43 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:29:21 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:29:21 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:32:57 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:32:57 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:32:57 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:32:57 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:32:57 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:32:58 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:32:58 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:33:54 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:33:54 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:33:54 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:33:54 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:33:54 --> Severity: Notice --> Undefined variable: experiencekind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-16 00:33:54 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:33:54 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:34:28 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:34:28 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:36:20 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:36:20 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:48:10 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:48:10 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:56:21 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:56:21 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:59:35 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 00:59:35 --> 404 Page Not Found: /index

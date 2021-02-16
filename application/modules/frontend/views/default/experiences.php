@@ -11,22 +11,23 @@
     </div>
   </header>
 
-  <!-- Icons Grid -->
+  <!-- Experience -->
   <section class="features-icons bg-light text-center">
     <div class="container">
       <div class="row">
 	    <?php foreach ($experiences as $experience): ?>
-        <div class="col-lg-4">
-          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-            </a>
-            <h3><?= $experience['company'] ?></h3>
+        <div class="col-lg-12">
+          <div class="text-left">
+            <h3><?= $experience['title'] ?></h3>
             <p class="lead mb-0"><?= $experience['position'] ?></p>
-            <h6><?= $experience['start_date']?> - <?= $experience['end_date'] ?></h6>
-            <h6><?= $experience['location']?></h6>
+            <div class="text-right">
+              <h6><?= $experience['start_date']?> - <?= $experience['end_date'] ?></h6>
+              <h6><?= $experience['location']?></h6>
+            </div>
             <?= $experience['content'] ?>
           </div>
         </div>
-        <?php endforeach; ?>
+      <?php endforeach; ?>
       </div>
     </div>
   </section>

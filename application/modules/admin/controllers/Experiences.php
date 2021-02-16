@@ -32,14 +32,20 @@ class Experiences extends Admin_Controller {
 		$this->load->model('experience');
 
 		if ($this->input->post('company')) {
-			$data['company'] = $this->input->post('company');
-			$data['position'] = $this->input->post('position');
+			$data['title'] = $this->input->post('title');
+			$data['kind'] = $this->input->post('kind');
+			$data['description'] = $this->input->post('description');
 			$data['priority'] = $this->input->post('priority');
-			$data['logo'] = $this->input->post('logo');
-			$data['content'] = $this->input->post('content');
+			$data['image'] = $this->input->post('image');
+			$data['image_url'] = $this->input->post('image_url');
+			$data['video'] = $this->input->post('video');
+			$data['video_url'] = $this->input->post('video_url');
+			$data['url'] = $this->input->post('url');
+			$data['faicon'] = $this->input->post('faicon');
 			$data['start_date'] = $this->input->post('start_date');
 			$data['end_date'] = $this->input->post('end_date');
 			$data['location'] = $this->input->post('location');
+			$data['content'] = $this->input->post('content');
 
 			if ($id){
 				$this->experience->update($data, $id);
@@ -52,13 +58,17 @@ class Experiences extends Admin_Controller {
 		}
 
 		if ($id)
+		{
 			$data['experience'] = $this->experience->get($id);
-		else
+		}else
+		{
 			$data['experience'] = $this->experience->empty_object();
-
+		}
 
 		$this->load->helper(array('form','ui'));
 		$data['priorities'] = $this->experience->priority();
+		$this->load->helper(array('form','ui'));
+		$data['kind'] = $this->experience->kind();
 
 		$this->load_view("experience/experience", $data);
 	}
