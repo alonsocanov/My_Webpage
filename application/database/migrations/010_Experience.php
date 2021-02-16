@@ -132,6 +132,14 @@ class Migration_Experience extends CI_Migration {
 		$data['content'] = '';
 		$this->db->insert('experience', $data);
 
+		$data['kind'] = 2;
+		$data['title'] = "Custom dataset for detecting cards' Club and Number ";
+		$data['description'] = "Object detection using Single Box MultiBox Detector (SSD) for playing cards' number and club";
+		$data['priority'] = 1;
+		$data['start_date'] = '2020';
+		$data['content'] = '';
+		$this->db->insert('experience', $data);
+
 	}
 
 

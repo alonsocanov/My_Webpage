@@ -74,3 +74,44 @@ ERROR - 2021-02-16 01:24:45 --> 404 Page Not Found: /index
 ERROR - 2021-02-16 01:24:45 --> 404 Page Not Found: /index
 ERROR - 2021-02-16 01:26:06 --> 404 Page Not Found: /index
 ERROR - 2021-02-16 01:37:15 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 02:50:41 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 03:24:01 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:01 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:01 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:01 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:01 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:24:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:25:26 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:25:26 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:25:26 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:25:26 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:25:26 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:26:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:26:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:26:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:26:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:26:50 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined index: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined index: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined index: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined index: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined index: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:30 --> Severity: Notice --> Undefined variable: kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:40 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:40 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:40 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:40 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:40 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93

@@ -34,11 +34,28 @@
 				<div class="panel-heading">
 					<div class="row">
 						<div class="col-xs-3">
-							<i class="fa fa-list-ol fa-3x"></i>
+							<i class="fa fa-briefcase fa-3x"></i>
 						</div>
 						<div class="col-xs-9 text-right">
 							<div class="huge"><?= $total_experiences ?></div>
 							<div>Total Experiences</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Total Projects -->
+		<div class="col-lg-2 col-md-4">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<div class="row">
+						<div class="col-xs-3">
+							<i class="fa fa-code fa-3x"></i>
+						</div>
+						<div class="col-xs-9 text-right">
+							<div class="huge"><?= $total_projects ?></div>
+							<div>Total Projects</div>
 						</div>
 					</div>
 				</div>
@@ -60,7 +77,7 @@
 						<table class="table table-striped table-bordered table-hover" id="dataTables-main">
 							<thead>
 								<tr>
-									<th>Company</th>
+									<th>Title</th>
 									<th>Kind</th>
 									<th>Description</th>
 									<th>Priority</th>
@@ -73,7 +90,7 @@
 									<?php foreach ($experiences as $key => $list): ?>
 										<tr class="odd gradeX">
 											<td><?=$list['title']?></td>
-											<td><?=$list['kind']?></td>
+											<td><?=$kinds[$list['kind']]?></td>
 											<td><?=$list['description']?></td>
 											<td><?=$priorities[$list['priority']]?></td>
 											<td><?=$list['last_update']?></td>
@@ -98,9 +115,9 @@
 							</tbody>
 							<tfooter>
 								<tr>
-									<th>Company</th>
+									<th>Title</th>
+									<th>Kind</th>
 									<th>Description</th>
-									<td>Kind</td>
 									<th>Priority</th>
 									<th>Last Update</th>
 									<th>Action</th>

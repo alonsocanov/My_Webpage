@@ -24,8 +24,6 @@ class Experience extends MY_Model {
 		$priority[2] = 'Middle';
 		$priority[3] = 'Just in there';
 		$priority[4] = 'Hide';
-
-
 		return $priority;
 	}
 
@@ -38,8 +36,6 @@ class Experience extends MY_Model {
 		$kind[3] = 'Academic';
 		$kind[4] = 'Skills';
 		$kind[5] = 'Other';
-
-
 		return $kind;
 	}
 }

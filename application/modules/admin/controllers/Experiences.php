@@ -14,7 +14,12 @@ class Experiences extends Admin_Controller {
 
 		$data['experiences'] = $this->experience->get_all();
 		$data['priorities'] = $this->experience->priority();
-		$data['total_experiences'] 	= $this->experience->count_all();
+		$data['kinds'] = $this->experience->kind();
+		$data['total_experiences'] 	= $this->experience->count_all('kind = 1');
+
+		$data['total_projects'] = $this->experience->count_all('kind = 2');
+
+
 
 
 
@@ -31,7 +36,7 @@ class Experiences extends Admin_Controller {
 		//cargo el modelo
 		$this->load->model('experience');
 
-		if ($this->input->post('company')) {
+		if ($this->input->post('title')) {
 			$data['title'] = $this->input->post('title');
 			$data['kind'] = $this->input->post('kind');
 			$data['description'] = $this->input->post('description');
@@ -67,7 +72,8 @@ class Experiences extends Admin_Controller {
 
 		$this->load->helper(array('form','ui'));
 		$data['priorities'] = $this->experience->priority();
-		$data['kind'] = $this->experience->kind();
+		$data['kinds'] = $this->experience->kind();
+
 
 		$this->load_view("experience/experience", $data);
 	}
