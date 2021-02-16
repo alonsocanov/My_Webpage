@@ -39,7 +39,7 @@
 		}
 
 		if($('#dataTables-detail')){
-			 $('#dataTables-detail').DataTable({`````
+			 $('#dataTables-detail').DataTable({
 				responsive: true
 			});
 		}

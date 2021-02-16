@@ -88,9 +88,9 @@
 								</div>
 
 								<div class="form-group">
-								<label>Description</label>
-								<textarea class="form-control" id="content" name="content" placeholder="Enter content" rows="20" style="max-width: 100%;"><?=$experience->content?></textarea>
-							</div>
+									<label>Content</label>
+									<textarea class="form-control" id="content" name="content" placeholder="Enter content" rows="20" style="max-width: 100%;"><?=$experience->content?></textarea>
+								</div>
 
 
 								<a  href="<?= base_url('admin/experiences/delete/'.$experience->id) ?>" class="btn btn-danger">Delete</a>

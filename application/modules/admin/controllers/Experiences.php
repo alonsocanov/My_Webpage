@@ -67,7 +67,6 @@ class Experiences extends Admin_Controller {
 
 		$this->load->helper(array('form','ui'));
 		$data['priorities'] = $this->experience->priority();
-		$this->load->helper(array('form','ui'));
 		$data['kind'] = $this->experience->kind();
 
 		$this->load_view("experience/experience", $data);
