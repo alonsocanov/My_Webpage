@@ -19,7 +19,7 @@
         <div class="col-lg-12">
           <div class="text-left">
             <h3><?= $experience['title'] ?></h3>
-            <p class="lead mb-0"><?= $experience['position'] ?></p>
+            <p class="lead mb-0"><?= $experience['description'] ?></p>
             <div class="text-right">
               <h6><?= $experience['start_date']?> - <?= $experience['end_date'] ?></h6>
               <h6><?= $experience['location']?></h6>

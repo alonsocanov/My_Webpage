@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Experiences extends MY_Controller {
+class Experiences extends Public_Controller {
 
     function __construct() {
 
@@ -16,7 +16,7 @@ class Experiences extends MY_Controller {
     public function index()
     {
         $this->load->model('admin/experience');
-        $data['experiences'] = $this->experience->get_all();
+        $data['experiences'] = $this->experience->get_all('', 'kind = 1');
         $this->load_view('experiences', $data);
     }
 

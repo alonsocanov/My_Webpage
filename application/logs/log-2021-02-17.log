@@ -30,3 +30,18 @@ ERROR - 2021-02-17 03:43:34 --> Severity: Notice --> Undefined property: Fronten
 ERROR - 2021-02-17 03:56:18 --> 404 Page Not Found: /index
 ERROR - 2021-02-17 04:06:05 --> Severity: Notice --> Undefined variable: hist /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Frontend.php 28
 ERROR - 2021-02-17 04:06:05 --> Severity: Notice --> Trying to get property '_social_networks' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Frontend.php 28
+ERROR - 2021-02-17 04:16:12 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:12 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:12 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:12 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:12 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:12 --> Severity: Notice --> Undefined property: Experiences::$_social_networks /Users/acano/Developer/Web/myWebpage/application/third_party/MX/Loader.php 310
+ERROR - 2021-02-17 04:16:51 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:51 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:51 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:51 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:16:51 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:17:47 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:17:47 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:17:47 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 04:17:47 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
