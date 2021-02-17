@@ -125,3 +125,25 @@ ERROR - 2021-02-17 21:47:02 --> Query error: Table 'experience' already exists -
 	`create_date` TIMESTAMP NOT NULL,
 	CONSTRAINT `pk_experience` PRIMARY KEY(`id`)
 ) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
+ERROR - 2021-02-17 21:53:40 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:23 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:26 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:27 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:28 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:29 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:30 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:31 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:32 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:32 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:54:36 --> Severity: Notice --> Undefined variable: experiences /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-17 21:54:36 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-17 21:54:53 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:55:39 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:55:40 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:56:46 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:56:48 --> Severity: error --> Exception: Unable to locate the model you have specified: Kind /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Loader.php 348
+ERROR - 2021-02-17 21:59:05 --> Severity: Notice --> Array to string conversion /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 21:59:05 --> Severity: Notice --> Array to string conversion /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 21:59:05 --> Severity: Notice --> Array to string conversion /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 21:59:05 --> Severity: Notice --> Array to string conversion /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 21:59:05 --> Severity: Notice --> Array to string conversion /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38

@@ -29,13 +29,23 @@ class Experience extends MY_Model {
 
 	public function kind()
 	{
+		// $kind[0] = 'Select an Option';
+		// $kind[1] = 'Profesional Experience';
+		// $kind[2] = 'Projects';
+		// $kind[3] = 'Academic';
+		// $kind[4] = 'Skills';
+		// $kind[5] = 'Other';
+
+		$this->load->model('kind');
+
+		$data = $this->kind->get_all('id, title');
 		$kind = [];
-		$kind[0] = 'Select an Option';
-		$kind[1] = 'Profesional Experience';
-		$kind[2] = 'Projects';
-		$kind[3] = 'Academic';
-		$kind[4] = 'Skills';
-		$kind[5] = 'Other';
+		foreach ($data as $value)
+		{
+			$kind[$value['id']] = $value['title'];
+		}
+
+
 		return $kind;
 	}
 }
