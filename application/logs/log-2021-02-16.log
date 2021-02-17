@@ -115,3 +115,12 @@ ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /U
 ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
 ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
 ERROR - 2021-02-16 03:27:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 93
+ERROR - 2021-02-16 15:34:57 --> 404 Page Not Found: ../modules/admin/controllers/Admin/page_items
+ERROR - 2021-02-16 15:35:06 --> 404 Page Not Found: ../modules/admin/controllers/Admin/page_items
+ERROR - 2021-02-16 15:35:13 --> 404 Page Not Found: ../modules/admin/controllers/Admin/experience
+ERROR - 2021-02-16 15:35:13 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 17:04:51 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 17:04:56 --> 404 Page Not Found: ../modules/admin/controllers/Admin/page_items
+ERROR - 2021-02-16 17:04:56 --> 404 Page Not Found: /index
+ERROR - 2021-02-16 17:06:32 --> 404 Page Not Found: ../modules/admin/controllers/Admin/page_items
+ERROR - 2021-02-16 17:08:05 --> Severity: Notice --> Undefined variable: showcases /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/front_item/front_items.php 73

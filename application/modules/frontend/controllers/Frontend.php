@@ -1,10 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Frontend extends MY_Controller {
+class Frontend extends Public_Controller {
 
 	function __construct() {
-
 
 		//you can change the theme from here, or from manager.php inside /application/config/
 		//$this->_theme = 'default';
@@ -17,11 +16,17 @@ class Frontend extends MY_Controller {
 	{
 		$this->load->model('admin/front_item');
 		$data['icon_items'] 	= $this->front_item->get_all('','kind = 1');
-		$data['showcases']  	= $this->front_item->get_all('','kind = 2');
-		$data['testimonials']	= $this->front_item->get_all('','kind = 3');
+		$data['testimonials']	= $this->front_item->get_all('','kind = 2');
 		// $data['social_networks'] = $this->front_item->get_all('','kind = 4');
 		$data['about_items'] 	= $this->front_item->get_all('','kind = 5');
+
+
+		$this->load->model('admin/experience');
+		$data['projects'] = $this->experience->get_all('', 'kind = 2');
 		$this->load_view('frontend', $data);
+
+
+
 	}
 
 }

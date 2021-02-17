@@ -38,7 +38,7 @@
 						</div>
 						<div class="col-xs-9 text-right">
 							<div class="huge"><?= $page_items_count ?></div>
-							<div>Total Page Items</div>
+							<div>Total Front Items</div>
 						</div>
 					</div>
 				</div>
@@ -61,7 +61,7 @@
 			</div>
 		</div>
 
-		<!-- Showcases Items -->
+		<!-- Project Items -->
 		<div class="col-lg-2 col-md-4">
 			<div class="panel panel-danger">
 				<div class="panel-heading">
@@ -70,8 +70,8 @@
 							<i class="fa fa-eye fa-3x"></i>
 						</div>
 						<div class="col-xs-9 text-right">
-							<div class="huge"><?= $showcases ?></div>
-							<div>Total Showcases</div>
+							<div class="huge"><?= $total_projects ?></div>
+							<div>Total Projects</div>
 						</div>
 					</div>
 				</div>

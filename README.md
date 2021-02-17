@@ -1,6 +1,6 @@
 # My Webpage
 
-This is a presentation and personal projects webpage demonstration. The webpage was developed using using [Ixaya's](https://www.ixaya.com) [Manger framework](https://github.com/Ixaya/Manager).
+This is a presentation and personal projects webpage demonstration. The webpage was developed using using [Ixaya's](https://www.ixaya.com) [Manger framework](https://github.com/Ixaya/Manager) thai it is based on [CodeIgniter's](https://codeigniter.com) framework.
 
 ## References to the Manager Framework
 

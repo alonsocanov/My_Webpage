@@ -74,35 +74,35 @@ class Migration_Front_Item extends CI_Migration {
 
 		$data['title'] = 'Github';
 		$data['description'] = '';
-		$data['kind'] = 4;
+		$data['kind'] = 3;
 		$data['url'] = 'https://github.com/alonsocanov';
 		$data['faicon'] = 'fa-github';
 		$this->db->insert('front_item', $data);
 
 		$data['title'] = 'Linked In';
 		$data['description'] = '';
-		$data['kind'] = 4;
+		$data['kind'] = 3;
 		$data['url'] = 'https://www.linkedin.com/in/alonsocanovillarreal/';
 		$data['faicon'] = 'fa-linkedin';
 		$this->db->insert('front_item', $data);
 
 		$data['title'] = 'Facebook';
 		$data['description'] = '';
-		$data['kind'] = 4;
+		$data['kind'] = 3;
 		$data['url'] = 'https://www.facebook.com/alonso.cano.5';
 		$data['faicon'] = 'fa-facebook';
 		$this->db->insert('front_item', $data);
 
 		$data['title'] = 'Twitter';
 		$data['description'] = '';
-		$data['kind'] = 4;
+		$data['kind'] = 3;
 		$data['url'] = 'https://twitter.com/alonso_cano';
 		$data['faicon'] = 'fa-twitter';
 		$this->db->insert('front_item', $data);
 
 		$data['title'] = 'Instagram';
 		$data['description'] = '';
-		$data['kind'] = 4;
+		$data['kind'] = 3;
 		$data['url'] = 'https://www.instagram.com/alonsocanov/';
 		$data['faicon'] = 'fa-instagram';
 		$this->db->insert('front_item', $data);

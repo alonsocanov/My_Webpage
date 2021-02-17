@@ -1,0 +1,32 @@
+ERROR - 2021-02-17 02:41:20 --> 404 Page Not Found: /index
+ERROR - 2021-02-17 02:41:30 --> 404 Page Not Found: /index
+ERROR - 2021-02-17 02:41:41 --> 404 Page Not Found: /index
+ERROR - 2021-02-17 03:01:25 --> Severity: error --> Exception: Class 'Public_Controller' not found /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Frontend.php 4
+ERROR - 2021-02-17 03:04:18 --> Severity: Notice --> Undefined property: Frontend::$page_item /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 19
+ERROR - 2021-02-17 03:04:18 --> Severity: error --> Exception: Call to a member function get_all() on null /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 19
+ERROR - 2021-02-17 03:04:18 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-17 03:05:35 --> Severity: Notice --> Undefined property: Frontend::$page_item /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 19
+ERROR - 2021-02-17 03:05:35 --> Severity: error --> Exception: Call to a member function get_all() on null /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 19
+ERROR - 2021-02-17 03:05:35 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-17 03:05:37 --> Severity: Notice --> Undefined property: Frontend::$page_item /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 19
+ERROR - 2021-02-17 03:05:37 --> Severity: error --> Exception: Call to a member function get_all() on null /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 19
+ERROR - 2021-02-17 03:05:37 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-17 03:05:53 --> Severity: Notice --> Undefined property: Frontend::$page_item /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 19
+ERROR - 2021-02-17 03:05:53 --> Severity: error --> Exception: Call to a member function get_all() on null /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 19
+ERROR - 2021-02-17 03:05:53 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-17 03:20:56 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:20:56 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:20:56 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:20:56 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:20:56 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:22:46 --> Severity: Notice --> Array to string conversion /Users/acano/Developer/Web/myWebpage/application/views/frontend/default/footer.php 27
+ERROR - 2021-02-17 03:24:16 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:24:16 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:24:16 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:24:16 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:24:16 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 03:31:34 --> Severity: error --> Exception: Call to undefined function issset() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Frontend.php 24
+ERROR - 2021-02-17 03:43:34 --> Severity: Notice --> Undefined property: Frontend::$social_networks /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Frontend.php 29
+ERROR - 2021-02-17 03:56:18 --> 404 Page Not Found: /index
+ERROR - 2021-02-17 04:06:05 --> Severity: Notice --> Undefined variable: hist /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Frontend.php 28
+ERROR - 2021-02-17 04:06:05 --> Severity: Notice --> Trying to get property '_social_networks' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Frontend.php 28

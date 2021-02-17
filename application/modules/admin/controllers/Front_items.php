@@ -14,12 +14,15 @@ class Front_items extends Admin_Controller {
 		$data['front_items'] = $this->front_item->get_all();
 		$data['page_items_count'] = $this->front_item->count_all();
 		$data['icon_items'] 	= $this->front_item->count_all('kind = 1');
-		$data['showcases']  	= $this->front_item->count_all('kind = 2');
-		$data['testimonials']	= $this->front_item->count_all('kind = 3');
-		$data['social_networks'] = $this->front_item->count_all('kind = 4');
-		$data['about_items'] 	= $this->front_item->count_all('kind = 5');
+		$data['testimonials']	= $this->front_item->count_all('kind = 2');
+		$data['social_networks'] = $this->front_item->count_all('kind = 3');
+		$data['about_items'] 	= $this->front_item->count_all('kind = 4');
 
 		$data['kinds'] = $this->front_item->kinds();
+
+		$this->load->model('experience');
+		$data['total_projects']  	= $this->experience->count_all('kind = 2');
+
 		$this->load_view("front_item/front_items", $data);
 	}
 
@@ -31,7 +34,6 @@ class Front_items extends Admin_Controller {
 	{
 		//cargo el modelo
 		$this->load->model('front_item');
-
 		if ($this->input->post('title')) {
 			$data['title'] = $this->input->post('title');
 			$data['description'] = $this->input->post('description');
@@ -65,7 +67,7 @@ class Front_items extends Admin_Controller {
 	}
 
 	public function delete($id) {
-			$this->load->model('front_item');
+		$this->load->model('front_item');
 		$this->front_item->delete($id);
 
 		redirect('/admin/front_items', 'refresh');

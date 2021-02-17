@@ -24,26 +24,15 @@
         </div>
         <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
           <ul class="list-inline mb-0">
-          <?php if (isset($social_networks)): ?>
-            <?php foreach ($social_networks as $social_network): ?>
+          <?php if ($this->_social_networks): ?>
+            <?php foreach ($this->_social_networks as $social_network): ?>
               <li class="list-inline-item mr-3">
-
                 <a href="<?= $social_network['url']?>">
                   <i class="fab <?= $social_network['faicon']?> fa-2x fa-fw"></i>
                 </a>
               </li>
-              <?php endforeach ?>
-          <?php endif ?>
-            <!-- <li class="list-inline-item mr-3">
-              <a href="#">
-                <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
-            </li> -->
+            <?php endforeach; ?>
+          <?php endif; ?>
           </ul>
         </div>
       </div>

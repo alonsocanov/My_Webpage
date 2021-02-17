@@ -32,17 +32,17 @@
     </div>
   </section>
 
-  <!-- Image Showcases -->
+  <!-- Projects -->
   <section class="showcase">
     <div class="container-fluid p-0">
-    <h1>My Projects</h1>
-	  <?php $odd = false; ?>
-	  <?php foreach ($showcases as $item): ?>
+    <h1>Projects</h1>
+	  <?php $odd = FALSE; ?>
+	  <?php foreach ($projects as $project): ?>
       <div class="row no-gutters">
         <div class="col-lg-6 <?= ($odd)?'order-lg-2':'';?> text-white showcase-images" style="background-image: url(<?=base_url('assets/frontend/default/images/') . $item['image_name']?>);" alt="<?= $item['title'] ?>"></div>
         <div class="col-lg-6 <?= ($odd)?'order-lg-1':'';?> my-auto showcase-text">
-          <h2><?= $item['title'] ?></h2>
-          <p class="lead mb-0"><?= $item['description'] ?></p>
+          <h2><?= $project['title'] ?></h2>
+          <p class="lead mb-0"><?= $project['description'] ?></p>
         </div>
       </div>
       <?php ($odd) ? $odd = FALSE : $odd = TRUE; ?>

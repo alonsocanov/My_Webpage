@@ -3,7 +3,7 @@
 		<div class="col-lg-12">
 			<h2>
 				Page Items
-				<a  href="<?= base_url('admin/page_items') ?>" class="btn btn-warning">Go back to page_items listing</a>
+				<a  href="<?= base_url('admin/front_items') ?>" class="btn btn-warning">Go back to Front Items listing</a>
 			</h2>
 		</div>
 		<!-- /.col-lg-12 -->
@@ -30,7 +30,7 @@
 						</div>
 						<?php endif; ?>
 						<div class="col-lg-6">
-							<form role="form" method="POST" action="<?=base_url('admin/page_items/edit/'.$front_item->id)?>">
+							<form role="form" method="POST" action="<?=base_url('admin/front_items/edit/'.$front_item->id)?>">
 								<div class="form-group">
 									<label>Title</label>
 									<input class="form-control" placeholder="Enter front_item title" id="title"  value="<?=$front_item->title?>" name="title">
@@ -69,7 +69,7 @@
 									<input class="form-control" placeholder="Enter image_name" id="image_name" name="image_name"  value="<?=$front_item->image_name?>">
 								</div>
 
-								<a  href="<?= base_url('admin/page_items/delete/'.$front_item->id) ?>" class="btn btn-danger">Delete</a>
+								<a  href="<?= base_url('admin/front_items/delete/'.$front_item->id) ?>" class="btn btn-danger">Delete</a>
 								<button type="submit" class="btn btn-primary pull-right">Save</button>
 
 							</form>
