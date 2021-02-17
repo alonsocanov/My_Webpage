@@ -52,6 +52,20 @@ class Experiences extends Admin_Controller {
 			$data['location'] = $this->input->post('location');
 			$data['content'] = $this->input->post('content');
 
+		$relative_path = FCPATH;
+		// $result = $this->upload_image($relative_path);
+		// if(!empty($result['thumb_image_name']))
+		// {
+		// 	$data['image_name'] = $result['thumb_image_name'];
+		// 	$data['image_url'] = base_url('private/profile/picture');
+		// }
+
+		// $current_user = $this->ion_auth->user()->row();
+		// }
+
+		// $data['user'] = $current_user;
+		// $this->load_view('profile_edit',$data);
+
 			if ($id){
 				$this->experience->update($data, $id);
 			} else{

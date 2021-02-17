@@ -45,3 +45,32 @@ ERROR - 2021-02-17 04:17:47 --> Severity: Notice --> Undefined index: position /
 ERROR - 2021-02-17 04:17:47 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
 ERROR - 2021-02-17 04:17:47 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
 ERROR - 2021-02-17 04:17:47 --> Severity: Notice --> Undefined index: position /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-17 15:23:40 --> 404 Page Not Found: /index
+ERROR - 2021-02-17 15:23:40 --> Severity: Notice --> Undefined property: Auth::$_social_networks /Users/acano/Developer/Web/myWebpage/application/third_party/MX/Loader.php 310
+ERROR - 2021-02-17 15:23:40 --> 404 Page Not Found: /index
+ERROR - 2021-02-17 15:23:52 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:23:52 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:23:52 --> Severity: Notice --> Undefined variable: user /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 75
+ERROR - 2021-02-17 15:23:52 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 75
+ERROR - 2021-02-17 15:26:16 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:26:16 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:26:16 --> Severity: Notice --> Undefined variable: user /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 75
+ERROR - 2021-02-17 15:26:16 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 75
+ERROR - 2021-02-17 15:28:42 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:28:42 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:28:42 --> Severity: Notice --> Undefined variable: user /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 75
+ERROR - 2021-02-17 15:28:42 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 75
+ERROR - 2021-02-17 15:30:23 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:30:23 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:30:55 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:30:55 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:32:34 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:32:34 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:32:40 --> Severity: Notice --> Undefined variable: kind /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:32:40 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 37
+ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38

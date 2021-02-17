@@ -14,9 +14,9 @@
 			<div class="panel panel-default">
 				<div class="panel-heading">
 				  <?php if (empty($experience->id)): ?>
-					Create Page Item
+					Create Experience
 				  <?php else: ?>
-					Update Page Item
+					Update Experience
 				  <?php endif; ?>
 				</div>
 				<div class="panel-body">
@@ -34,8 +34,8 @@
 							<div class="form-group">
 									<label>Kind</label>
 									<select class="form-control" name="kind" id="kind">
-										<?php foreach ($kind as $key => $list): ?>
-											<option value="<?=$key?>" <?= ($experience->kind == $key) ? 'selected' : '';?> ><?=$list?></option>
+										<?php foreach ($kinds as $key => $value): ?>
+											<option value="<?=$key?>" <?= ($experience->kind == $key) ? 'selected' : '';?> ><?=$value?></option>
 										<?php endforeach; ?>
 									</select>
 								</div>
@@ -62,20 +62,25 @@
 										<?php endforeach; ?>
 									</select>
 								</div>
+
 								<div class="form-group">
 									<label>Image</label>
-									<input class="form-control" placeholder="Upload Image" id="image" name="image" value="<?=$experience->image?>">
+									<h6><img  height="200px" src="<?= $experience->image_url; ?>"/></h6>
+									<h6><?= (empty($experience->image_url))? 'No Image' : 'Current Image'?></h6>
+									<input type="file" class="form-control" placeholder="Upload Image" id="image" name="image" value="<?=$experience->image?>">
 								</div>
 								<div class="form-group">
 									<label>Video</label>
-									<input class="form-control" placeholder="Upload Image" id="video" name="video" value="<?=$experience->video?>">
+									<h6><img  height="200px" src="<?= $experience->video_url; ?>"/></h6>
+									<h6><?= (empty($experience->ivideo_url))? 'No Video' : 'Current Video'?></h6>
+									<input type='file' class="form-control" placeholder="Upload Video" id="video" name="video" value="<?=$experience->video?>">
 								</div>
 								<div class="form-group">
 									<label>Url</label>
 									<input class="form-control" placeholder="Enter url" id="url" name="url"  value="<?=$experience->url?>">
 								</div>
 								<div class="form-group">
-									<label>faicon</label>
+									<label>Faicon</label>
 									<input class="form-control" placeholder="Enter url" id="faicon" name="faicon"  value="<?=$experience->faicon?>">
 								</div>
 								<div class="form-group">
