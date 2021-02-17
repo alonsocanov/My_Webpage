@@ -74,3 +74,9 @@ ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClas
 ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
 ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
 ERROR - 2021-02-17 15:34:06 --> Severity: Notice --> Undefined property: stdClass::$kinds /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-17 21:26:50 --> 404 Page Not Found: /index
+ERROR - 2021-02-17 21:30:50 --> Severity: Notice --> Undefined variable: experiences /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-17 21:30:50 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-17 21:30:50 --> Severity: Notice --> Undefined property: Projects::$_social_networks /Users/acano/Developer/Web/myWebpage/application/third_party/MX/Loader.php 310
+ERROR - 2021-02-17 21:31:31 --> Severity: Notice --> Undefined variable: experiences /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-17 21:31:31 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
