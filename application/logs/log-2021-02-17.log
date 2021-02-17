@@ -80,3 +80,48 @@ ERROR - 2021-02-17 21:30:50 --> Severity: Warning --> Invalid argument supplied 
 ERROR - 2021-02-17 21:30:50 --> Severity: Notice --> Undefined property: Projects::$_social_networks /Users/acano/Developer/Web/myWebpage/application/third_party/MX/Loader.php 310
 ERROR - 2021-02-17 21:31:31 --> Severity: Notice --> Undefined variable: experiences /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
 ERROR - 2021-02-17 21:31:31 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-17 21:42:40 --> Query error: Unknown table 'alonso.kind' - Invalid query: DROP TABLE `kind`
+ERROR - 2021-02-17 21:43:31 --> Query error: Unknown table 'alonso.front_item' - Invalid query: DROP TABLE `front_item`
+ERROR - 2021-02-17 21:44:16 --> Query error: Unknown column 'title' in 'field list' - Invalid query: INSERT INTO `kind` (`title`, `description`) VALUES ('Projects', 'Personal projects')
+ERROR - 2021-02-17 21:44:51 --> Query error: Table 'kind' already exists - Invalid query: CREATE TABLE `kind` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`description` VARCHAR(128) NULL,
+	`last_update` TIMESTAMP NOT NULL,
+	`create_date` TIMESTAMP NOT NULL,
+	CONSTRAINT `pk_kind` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
+ERROR - 2021-02-17 21:45:16 --> Query error: Table 'kind' already exists - Invalid query: CREATE TABLE `kind` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`description` VARCHAR(128) NULL,
+	`last_update` TIMESTAMP NOT NULL,
+	`create_date` TIMESTAMP NOT NULL,
+	CONSTRAINT `pk_kind` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
+ERROR - 2021-02-17 21:46:13 --> Query error: Table 'kind' already exists - Invalid query: CREATE TABLE `kind` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`title` VARCHAR(64) NULL,
+	`description` VARCHAR(128) NULL,
+	`last_update` TIMESTAMP NOT NULL,
+	`create_date` TIMESTAMP NOT NULL,
+	CONSTRAINT `pk_kind` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
+ERROR - 2021-02-17 21:47:02 --> Query error: Table 'experience' already exists - Invalid query: CREATE TABLE `experience` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`kind` INT(16) NOT NULL,
+	`title` VARCHAR(64) NULL,
+	`description` LONGTEXT NULL,
+	`priority` INT(11) NULL,
+	`image` VARCHAR(128) NULL,
+	`image_url` VARCHAR(254) NULL,
+	`video` VARCHAR(128) NULL,
+	`video_url` VARCHAR(254) NULL,
+	`url` VARCHAR(254) NULL,
+	`faicon` VARCHAR(32) NULL,
+	`start_date` VARCHAR(32) NULL,
+	`end_date` VARCHAR(32) NULL,
+	`location` VARCHAR(64) NULL,
+	`content` LONGTEXT NULL,
+	`last_update` TIMESTAMP NOT NULL,
+	`create_date` TIMESTAMP NOT NULL,
+	CONSTRAINT `pk_experience` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci

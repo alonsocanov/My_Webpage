@@ -32,9 +32,14 @@ class Migration_Front_Item extends CI_Migration {
 				'constraint' => 32,
 				'null' => TRUE
 			),
-			'image_name' => array(
+			'image' => array(
 				'type' => 'VARCHAR',
-				'constraint' => 32,
+				'constraint' => 64,
+				'null' => TRUE
+			),
+			'image_url' => array(
+				'type' => 'VARCHAR',
+				'constraint' => 64,
 				'null' => TRUE
 			),
 			'last_update' => array(
@@ -49,7 +54,6 @@ class Migration_Front_Item extends CI_Migration {
 		$this->dbforge->create_table('front_item');
 
 		$data = [];
-
 		$data['title'] = 'Projects';
 		$data['description'] = 'Personal projects';
 		$data['kind'] = 1;
@@ -57,6 +61,7 @@ class Migration_Front_Item extends CI_Migration {
 		$data['faicon'] = 'fa-code';
 		$this->db->insert('front_item', $data);
 
+		$data = [];
 		$data['title'] = 'Experience';
 		$data['description'] = 'Profesional experience';
 		$data['kind'] = 1;
@@ -64,14 +69,15 @@ class Migration_Front_Item extends CI_Migration {
 		$data['faicon'] = 'fa-briefcase';
 		$this->db->insert('front_item', $data);
 
+		$data = [];
 		$data['title'] = 'Education';
 		$data['description'] = 'Academic Formation';
 		$data['kind'] = 1;
-		$data['url'] = 'education';
+		$data['url'] = 'frontend/education';
 		$data['faicon'] = 'fa-graduation-cap';
 		$this->db->insert('front_item', $data);
 
-
+		$data = [];
 		$data['title'] = 'Github';
 		$data['description'] = '';
 		$data['kind'] = 3;
@@ -86,6 +92,7 @@ class Migration_Front_Item extends CI_Migration {
 		$data['faicon'] = 'fa-linkedin';
 		$this->db->insert('front_item', $data);
 
+		$data = [];
 		$data['title'] = 'Facebook';
 		$data['description'] = '';
 		$data['kind'] = 3;
@@ -93,6 +100,7 @@ class Migration_Front_Item extends CI_Migration {
 		$data['faicon'] = 'fa-facebook';
 		$this->db->insert('front_item', $data);
 
+		$data = [];
 		$data['title'] = 'Twitter';
 		$data['description'] = '';
 		$data['kind'] = 3;
@@ -100,6 +108,7 @@ class Migration_Front_Item extends CI_Migration {
 		$data['faicon'] = 'fa-twitter';
 		$this->db->insert('front_item', $data);
 
+		$data = [];
 		$data['title'] = 'Instagram';
 		$data['description'] = '';
 		$data['kind'] = 3;
