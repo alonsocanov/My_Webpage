@@ -41,8 +41,8 @@ class Experiences extends Admin_Controller {
 			$data['kind'] = $this->input->post('kind');
 			$data['description'] = $this->input->post('description');
 			$data['priority'] = $this->input->post('priority');
-			$data['image'] = $this->input->post('image');
-			$data['image_url'] = $this->input->post('image_url');
+			// $data['image'] = $this->input->post('image');
+			// $data['image_url'] = $this->input->post('image_url');
 			$data['video'] = $this->input->post('video');
 			$data['video_url'] = $this->input->post('video_url');
 			$data['url'] = $this->input->post('url');
@@ -52,26 +52,32 @@ class Experiences extends Admin_Controller {
 			$data['location'] = $this->input->post('location');
 			$data['content'] = $this->input->post('content');
 
-		$relative_path = FCPATH;
-		// $result = $this->upload_image($relative_path);
-		// if(!empty($result['thumb_image_name']))
-		// {
-		// 	$data['image_name'] = $result['thumb_image_name'];
-		// 	$data['image_url'] = base_url('private/profile/picture');
-		// }
+			$relative_path = 'assets/frontend/images/experience/';
+			$desired_file_name = str_replace(' ', '_', $data['title']);
+			$delete_original = False;
+			$field_name = 'image';
+			$resolution = [400, 400];
+			$preserve_type = FALSE;
 
-		// $current_user = $this->ion_auth->user()->row();
-		// }
+			$result = $this->upload_image($relative_path, $desired_file_name, $delete_original, $field_name, $resolution, $preserve_type);
+			if (!empty($result['thumb_image_name']))
+			{
+				$data['image'] = $result['thumb_image_name'];
+				$data['image_url'] =  base_url('admin/experiences/picture/'. $id);
+			}
 
-		// $data['user'] = $current_user;
-		// $this->load_view('profile_edit',$data);
-
+			// var_dump($result);
+			// die;
 			if ($id){
 				$this->experience->update($data, $id);
 			} else{
 				$data['create_date'] = date('Y-m-d H:i:s');
 				$id = $this->experience->insert($data);
 			}
+			// var_dump($data['image_url'] . $data['image']);
+			// die;
+			// $this->display_image($data['image_url'] . $data['image']);
+			// $this->experience->update($id, $data);
 
 			redirect("/admin/experiences/edit/$id", 'refresh');
 		}
@@ -88,9 +94,30 @@ class Experiences extends Admin_Controller {
 		$data['priorities'] = $this->experience->priority();
 		$data['kinds'] = $this->experience->kind();
 
+		// var_dump($id);
+		// die;
+
 
 		$this->load_view("experience/experience", $data);
 	}
+
+	public function picture($id=NULL)
+	{
+		$this->load->model('experience');
+		$relative_path = "assets/frontend/images/experience/";
+		$data = $this->experience->get_array($id);
+		if ($data){
+			$filename = $data['image'];
+			$file_path = FCPATH . $relative_path . $filename;
+			// var_dump($file_path, file_exists($file_path), file_exists('/Users/acano/Developer/Web/myWebpage/public/assets/frontend/images/experience/Image_Processing_Camera_Scanner_thumb.jpg?v=602e8c47'));
+			// die;
+			$this->display_image($file_path);
+		}
+
+
+
+	}
+
 
 	public function delete($id) {
 		$this->load->model('experience');

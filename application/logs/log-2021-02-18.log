@@ -1,0 +1,624 @@
+ERROR - 2021-02-18 01:54:47 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 01:56:20 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 01:57:12 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:03:23 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:03:44 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:08:46 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:13:47 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:14:04 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:14:12 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:18:11 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:21:00 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:27:19 --> Error uploading(/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 02:37:01 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Upload.php 377
+ERROR - 2021-02-18 02:37:36 --> Severity: Notice --> Undefined index: image /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Upload.php 377
+ERROR - 2021-02-18 02:55:13 --> Severity: Notice --> Undefined index: image /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Upload.php 377
+ERROR - 2021-02-18 02:58:43 --> Severity: Notice --> Undefined index: image /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Upload.php 377
+ERROR - 2021-02-18 02:58:51 --> Severity: Notice --> Undefined index: image /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Upload.php 377
+ERROR - 2021-02-18 03:02:34 --> Severity: Notice --> Undefined index: image /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/libraries/Upload.php 377
+ERROR - 2021-02-18 03:03:22 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:03:34 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:03:39 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:06:56 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:07:01 --> Severity: Warning --> Illegal string offset 'last_update' /Users/acano/Developer/Web/myWebpage/application/core/MY_Model.php 286
+ERROR - 2021-02-18 03:07:01 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2 = ''
+WHERE id IN('Image Processing Camera Scanner', '1', 'Using Canny edge det' at line 1 - Invalid query: UPDATE `experience` SET 2 = ''
+WHERE id IN('Image Processing Camera Scanner', '1', 'Using Canny edge detector and an Homagraphy a scanned document is obtained from a simple image', '1', NULL, NULL, '', '', '2019', '', '', '', 'Image_Processing_Camera_Scanner_thumb.jpg?v=602dd9d5', '//127.0.0.1:8000/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience///127.0.0.1:8000/Users/acano/Developer/Web/myWebpage/public/frontend/images/experience/Image_Processing_Camera_Scanner.jpeg?v = 602dd9d5')
+ERROR - 2021-02-18 03:07:01 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-18 03:07:49 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:07:57 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:13:18 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:22:50 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:25:51 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:25:58 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:26:04 --> Severity: Notice --> Undefined variable: file_path /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 78
+ERROR - 2021-02-18 03:26:04 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 246
+ERROR - 2021-02-18 03:26:04 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 03:26:59 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 03:27:12 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 03:32:25 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:32:25 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 03:33:12 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/images
+ERROR - 2021-02-18 03:50:36 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 03:50:51 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 03:52:37 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 03:52:41 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:00:33 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 04:01:48 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:01:54 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:01:57 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 04:02:02 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:02:09 --> Error uploading(assets/frontend/images/experience/): "<p>The filetype you are attempting to upload is not allowed.<\/p>"
+ERROR - 2021-02-18 04:02:09 --> Severity: Notice --> Undefined index: image_url /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 78
+ERROR - 2021-02-18 04:02:09 --> Severity: Notice --> Undefined index: image /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 78
+ERROR - 2021-02-18 04:02:09 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 246
+ERROR - 2021-02-18 04:02:09 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:02:15 --> Error uploading(assets/frontend/images/experience/): "<p>The filetype you are attempting to upload is not allowed.<\/p>"
+ERROR - 2021-02-18 04:02:15 --> Severity: Notice --> Undefined index: image_url /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 78
+ERROR - 2021-02-18 04:02:15 --> Severity: Notice --> Undefined index: image /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 78
+ERROR - 2021-02-18 04:02:15 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 246
+ERROR - 2021-02-18 04:02:15 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:02:36 --> Error uploading(assets/frontend/images/experience/): "<p>The filetype you are attempting to upload is not allowed.<\/p>"
+ERROR - 2021-02-18 04:02:36 --> Severity: Notice --> Undefined index: image_url /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 76
+ERROR - 2021-02-18 04:02:36 --> Severity: Notice --> Undefined index: image /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 76
+ERROR - 2021-02-18 04:02:38 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 04:04:01 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:04:56 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 04:05:23 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:09:04 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:09:17 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:12:04 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:12:09 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:12:15 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:15:41 --> Severity: Warning --> Illegal string offset 'last_update' /Users/acano/Developer/Web/myWebpage/application/core/MY_Model.php 286
+ERROR - 2021-02-18 04:15:41 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2 = ''
+WHERE id IN('Image Processing Camera Scanner', '1', 'Using Canny edge det' at line 1 - Invalid query: UPDATE `experience` SET 2 = ''
+WHERE id IN('Image Processing Camera Scanner', '1', 'Using Canny edge detector and an Homagraphy a scanned document is obtained from a simple image', '1', NULL, NULL, '', '', '2019', '', '', '', 'Image_Processing_Camera_Scanner_thumb.jpg?v = 602de9ed', 'assets/frontend/images/expreience/')
+ERROR - 2021-02-18 04:15:41 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:246) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Common.php 570
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:18:59 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:19:09 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:28:56 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:29:17 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:29:23 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:36:00 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:36:26 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:37:49 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:38:42 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:38:59 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:41:12 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:42:39 --> Severity: Notice --> Undefined variable: filepath /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 239
+ERROR - 2021-02-18 04:42:39 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 247
+ERROR - 2021-02-18 04:42:39 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:43:08 --> Severity: Notice --> Undefined variable: filepath /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 239
+ERROR - 2021-02-18 04:43:08 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 247
+ERROR - 2021-02-18 04:43:08 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:43:28 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:43:37 --> Severity: Notice --> Undefined variable: filepath /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 239
+ERROR - 2021-02-18 04:43:37 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php 247
+ERROR - 2021-02-18 04:43:37 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/core/Exceptions.php:271) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:44:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:247) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:44:34 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:248) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:44:47 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:249) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:44:54 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:45:00 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:249) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:48:45 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/acano/Developer/Web/myWebpage/application/core/MY_Controller.php:250) /Users/acano/Developer/Web/myWebpage/vendor/codeigniter/framework/system/helpers/url_helper.php 561
+ERROR - 2021-02-18 04:50:04 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:50:04 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:50:12 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/images
+ERROR - 2021-02-18 04:50:12 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:50:30 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:50:35 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:50:37 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:50:37 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:51:41 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:53:18 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:53:23 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:53:32 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:55:34 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 04:55:42 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 33
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'kind' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 38
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'title' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 44
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'description' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 49
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'location' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 54
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'priority' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 61
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 68
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'video_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 76
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'video' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 78
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 82
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'faicon' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 86
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'start_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 90
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'end_date' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 94
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'content' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 99
+ERROR - 2021-02-18 15:15:49 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 103
+ERROR - 2021-02-18 15:16:04 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:18:21 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:18:27 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:18:50 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:19:21 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:19:31 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:19:31 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:20:02 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:20:04 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:20:12 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:20:12 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:20:21 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:21:50 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreiences
+ERROR - 2021-02-18 15:21:50 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:21:57 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:23:18 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/expreience
+ERROR - 2021-02-18 15:23:27 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreience
+ERROR - 2021-02-18 15:23:39 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreience
+ERROR - 2021-02-18 15:23:39 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:26:11 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreience
+ERROR - 2021-02-18 15:26:18 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:26:28 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:26:28 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:27:30 --> Severity: Notice --> Trying to get property 'image' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 97
+ERROR - 2021-02-18 15:33:17 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:33:27 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:33:58 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:34:10 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:34:23 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:34:23 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:34:28 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreience
+ERROR - 2021-02-18 15:34:28 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:34:50 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:34:50 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:35:02 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreience
+ERROR - 2021-02-18 15:35:09 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreience
+ERROR - 2021-02-18 15:35:09 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreience
+ERROR - 2021-02-18 15:35:13 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreience
+ERROR - 2021-02-18 15:35:17 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:37:54 --> 404 Page Not Found: ../modules/admin/controllers/Admin/expreiences
+ERROR - 2021-02-18 15:38:01 --> Severity: error --> Exception: Call to undefined method Experiences::get_array() /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 107
+ERROR - 2021-02-18 15:38:14 --> Severity: error --> Exception: Call to undefined method Experiences::get_array() /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 107
+ERROR - 2021-02-18 15:38:15 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:47:04 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:47:04 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:47:23 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/images
+ERROR - 2021-02-18 15:47:23 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:47:32 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 15:51:29 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 19:34:29 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 19:34:53 --> Severity: Notice --> Undefined variable: experiences /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-18 19:34:53 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-18 19:37:26 --> Severity: Notice --> Undefined variable: experiences /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-18 19:37:26 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-18 19:38:51 --> Severity: Notice --> Undefined variable: experiences /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-18 19:38:51 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/projects.php 18
+ERROR - 2021-02-18 19:48:20 --> Query error: Unknown column 'Projects' in 'where clause' - Invalid query: SELECT `id`
+FROM `kind`
+WHERE `title` = `Projects`
+ERROR - 2021-02-18 19:49:29 --> Query error: Unknown column 'Projects' in 'where clause' - Invalid query: SELECT `id`
+FROM `kind`
+WHERE `title` = `Projects`
+ERROR - 2021-02-18 19:57:24 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Projects.php 24
+ERROR - 2021-02-18 19:57:52 --> Severity: Notice --> Trying to get property 'id' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Projects.php 25
+ERROR - 2021-02-18 19:58:23 --> Severity: Notice --> Undefined index: id /Users/acano/Developer/Web/myWebpage/application/modules/frontend/controllers/Projects.php 25
+ERROR - 2021-02-18 20:07:57 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 20:08:14 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 20:08:27 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-18 20:08:50 --> 404 Page Not Found: /index
+ERROR - 2021-02-18 20:08:55 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"

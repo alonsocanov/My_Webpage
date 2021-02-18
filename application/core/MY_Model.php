@@ -61,7 +61,8 @@ class MY_Model extends CI_Model {
 
 		return $this->db->get_where($this->table_name, array($this->primary_key => $id,'deleted' => 0))->row();
 	}
-		public function get_where($where) {
+
+	public function get_where($where) {
 		if($this->where_override)
 			$this->db->where($this->where_override);
 
@@ -70,6 +71,7 @@ class MY_Model extends CI_Model {
 
 		return $this->db->get_where($this->table_name, $where)->row();
 	}
+
 	public function get_array($id, $table = null)
 	{
 		if(!$table)

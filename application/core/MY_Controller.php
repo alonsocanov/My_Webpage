@@ -120,7 +120,7 @@ class MY_Controller extends CI_Controller
 		{
 			//APPPATH
 			//FCPATH
-			$file_path = FCPATH.$relative_path;
+			$file_path = FCPATH . $relative_path;
 			if (!file_exists($file_path))
 				mkdir($file_path, 0755, true);
 
@@ -133,9 +133,9 @@ class MY_Controller extends CI_Controller
 				$config = $upload_config;
 			}
 
-			$config['upload_path']		  = $file_path;
-			$config['remove_spaces']  = true;
-			$config['detect_mime']   = true;
+			$config['upload_path'] = $file_path;
+			$config['remove_spaces'] = true;
+			$config['detect_mime'] = true;
 
 			if($desired_file_name)
 			{
@@ -146,8 +146,10 @@ class MY_Controller extends CI_Controller
 			}
 
 			//initialize in second line in case you want to do multiple uploads on same instance
+
 			$this->load->library('upload');
 			$this->upload->initialize($config);
+
 			if ($this->upload->do_upload($field_name))
 			{
 				//$this->session->set_flashdata('message', 'Se subió el archivo');
@@ -160,6 +162,8 @@ class MY_Controller extends CI_Controller
 				$file_ext = $upload_data['file_ext'];
 				$file_type = $upload_data['file_type'];
 
+
+
 				if (!$preserve_type){
 					$file_ext = '.jpg';
 					$file_type = 'image/jpeg';
@@ -167,7 +171,6 @@ class MY_Controller extends CI_Controller
 
 				$new_file_name = $upload_data['raw_name'].$file_ext;
 				$new_file_path = $file_path.$new_file_name;
-
 
 				if (!$preserve_type){
 					//advanced convert to JPG that sets background to white
@@ -178,6 +181,8 @@ class MY_Controller extends CI_Controller
 					imagefilledrectangle($output_image, 0, 0, $width, $height, $white);
 					imagecopy($output_image, $input_image, 0, 0, 0, 0, $width, $height);
 					imagejpeg($output_image, $new_file_path);
+
+
 				}
 
 				if ($file_type == 'image/jpeg' || $file_type == 'image/png')
@@ -190,6 +195,8 @@ class MY_Controller extends CI_Controller
 					$img_config['maintain_ratio'] = TRUE;
 					$img_config['width']		  = $resolution[0];
 					$img_config['height']		 = $resolution[1];
+
+
 					$this->load->library('image_lib', $img_config);
 					$this->image_lib->resize();
 				}
@@ -197,10 +204,11 @@ class MY_Controller extends CI_Controller
 
 				//return thumbnail name and image_name
 				$v = '';
-				if ($desired_file_name){
-					$v = dechex(time());
-					$v = "?v=$v";
-				}
+				// if ($desired_file_name){
+
+				// 	$v = dechex(time());
+				// 	$v = "?v=$v";
+				// }
 
 				$return_data['fullsize_image_name'] = $new_file_name.$v;
 				$return_data['fullsize_image_type'] = $file_type;
@@ -234,10 +242,13 @@ class MY_Controller extends CI_Controller
 	public function display_image($file_path)
 	{
 		$filename = basename($file_path);
+
+
 		if (file_exists($file_path) && !empty($filename))
 		{
+
 			header('Content-Type: image/jpeg');
-			header('Cache-Control: private');
+			header('Cache-Control: public');
 			header("Content-Disposition: inline; filename='$filename'");
 
 			readfile($file_path);

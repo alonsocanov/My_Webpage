@@ -15,16 +15,16 @@
   <section class="features-icons bg-light text-center">
     <div class="container">
       <div class="row">
-	    <?php foreach ($experiences as $experience): ?>
+	    <?php foreach ($projects as $project): ?>
         <div class="col-lg-12">
           <div class="text-left">
-            <h3><?= $experience['title'] ?></h3>
-            <p class="lead mb-0"><?= $experience['description'] ?></p>
+            <h3><?= $project['title'] ?></h3>
+            <p class="lead mb-0"><?= $project['description'] ?></p>
             <div class="text-right">
-              <h6><?= $experience['start_date']?> - <?= $experience['end_date'] ?></h6>
-              <h6><?= $experience['location']?></h6>
+              <h6><?= $project['start_date']?></h6>
+              <h6><?= $project['location']?></h6>
             </div>
-            <?= $experience['content'] ?>
+            <?= $project['content'] ?>
           </div>
         </div>
       <?php endforeach; ?>

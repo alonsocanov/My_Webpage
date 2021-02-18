@@ -29,7 +29,7 @@ class Experience extends MY_Model {
 
 	public function kind()
 	{
-		// $kind[0] = 'Select an Option';
+
 		// $kind[1] = 'Profesional Experience';
 		// $kind[2] = 'Projects';
 		// $kind[3] = 'Academic';

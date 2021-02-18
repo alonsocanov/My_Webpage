@@ -30,7 +30,7 @@
 						</div>
 						<?php endif; ?>
 						<div class="col-lg-6">
-							<form role="form" method="POST" action="<?=base_url('admin/experiences/edit/'.$experience->id)?>">
+							<form role="form" method="POST" enctype="multipart/form-data" novalidate action="<?=base_url('admin/experiences/edit/'.$experience->id)?>">
 							<div class="form-group">
 									<label>Kind</label>
 									<select class="form-control" name="kind" id="kind">
@@ -65,9 +65,9 @@
 
 								<div class="form-group">
 									<label>Image</label>
-									<h6><img  height="200px" src="<?= $experience->image_url; ?>"/></h6>
-									<h6><?= (empty($experience->image_url))? 'No Image' : 'Current Image'?></h6>
-									<input type="file" class="form-control" placeholder="Upload Image" id="image" name="image" value="<?=$experience->image?>">
+									<h6><img  height="400px" src="<?= $experience->image_url ?>"/></h6>
+									<h5><?= (empty($experience->image_url))? 'No Image' : 'Current Image'?></h5>
+									<input type="file" placeholder="Upload Image" id="image" name="image"/>
 								</div>
 								<div class="form-group">
 									<label>Video</label>

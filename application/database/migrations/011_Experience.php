@@ -93,6 +93,24 @@ class Migration_Experience extends CI_Migration {
 
 		$data = [];
 		$data['kind'] = 1;
+		$data['title'] = "Custom dataset for detecting cards' Club and Number";
+		$data['description'] = "Object detection using Single Box MultiBox Detector (SSD) for playing cards' number and club";
+		$data['priority'] = 1;
+		$data['start_date'] = '2020';
+		$data['content'] = '';
+		$this->db->insert('experience', $data);
+
+		$data = [];
+		$data['kind'] = 1;
+		$data['title'] = "Image Processing Camera Scanner";
+		$data['description'] = "Using Canny edge detector and an Homagraphy a scanned document is obtained from a simple image";
+		$data['priority'] = 1;
+		$data['start_date'] = '2019';
+		$data['content'] = '';
+		$this->db->insert('experience', $data);
+
+		$data = [];
+		$data['kind'] = 2;
 		$data['title'] = 'Ixaya';
 		$data['description'] = 'Deep Learning and Web developer';
 		$data['priority'] = 1;
@@ -103,7 +121,7 @@ class Migration_Experience extends CI_Migration {
 		$this->db->insert('experience', $data);
 
 		$data = [];
-		$data['kind'] = 1;
+		$data['kind'] = 2;
 		$data['title'] = 'AFD Technologies';
 		$data['description'] = 'Machine Learning Project Manager';
 		$data['priority'] = 1;
@@ -113,7 +131,7 @@ class Migration_Experience extends CI_Migration {
 		$data['content'] = '<div class="page" title="Page 1"><div class="layoutArea"><p></p><p></p><ul><ul></ul></ul><p></p><p></p><p></p><ul><ul></ul></ul><p></p><p></p><ul></ul><p></p><ul><li>The goal of the project was to detect alarm anomalies on&nbsp;telecommunication&nbsp;services provided by Orange France</li></ul><p></p><ul></ul><p></p><ul><li>Used unsupervised algorithms for anomaly detection of alarm systems</li></ul><p></p><ul></ul><p></p><ul><li>Evaluated unsupervised algorithms with statistical criteria in order to determine the best-one according to data set</li></ul><p></p><ul></ul><p></p><ul><li>The models were implemented for testing phase</li></ul><p></p><ul></ul><p></p><ul><li>The time that the supervision team took to detect certain anomalies was&nbsp;reduced</li></ul></div></div>';
 		$this->db->insert('experience', $data);
 		$data = [];
-		$data['kind'] = 1;
+		$data['kind'] = 2;
 		$data['title'] = 'Electronics and Electromagnetism Laboratory (L2E)';
 		$data['description'] = 'Reserch Internship';
 		$data['priority'] = 1;
@@ -124,31 +142,13 @@ class Migration_Experience extends CI_Migration {
 		$this->db->insert('experience', $data);
 
 		$data = [];
-		$data['kind'] = 1;
+		$data['kind'] = 2;
 		$data['title'] = 'Velesa';
 		$data['description'] = 'Advisor';
 		$data['priority'] = 3;
 		$data['start_date'] = 'May 2015';
 		$data['end_date'] = '';
 		$data['location'] = 'Leon, Guanajuato';
-		$data['content'] = '';
-		$this->db->insert('experience', $data);
-
-		$data = [];
-		$data['kind'] = 2;
-		$data['title'] = "Custom dataset for detecting cards' Club and Number";
-		$data['description'] = "Object detection using Single Box MultiBox Detector (SSD) for playing cards' number and club";
-		$data['priority'] = 1;
-		$data['start_date'] = '2020';
-		$data['content'] = '';
-		$this->db->insert('experience', $data);
-
-		$data = [];
-		$data['kind'] = 2;
-		$data['title'] = "Image Processing Camera Scanner";
-		$data['description'] = "Using Canny edge detector and an Homagraphy a scanned document is obtained from a simple image";
-		$data['priority'] = 1;
-		$data['start_date'] = '2019';
 		$data['content'] = '';
 		$this->db->insert('experience', $data);
 
