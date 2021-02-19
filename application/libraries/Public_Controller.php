@@ -43,4 +43,7 @@ class Public_Controller extends MY_Controller {
 		$this->load->library('ion_auth');
 		$this->_is_logged_in = $this->ion_auth->logged_in();
 	}
+
+
+
 }

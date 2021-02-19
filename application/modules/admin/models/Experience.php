@@ -15,9 +15,7 @@ class Experience extends MY_Model {
 
 	}
 
-	public function priority()
-	{
-
+	public function priority(){
 		$priority = [];
 		$priority[0] = 'Select an Option';
 		$priority[1] = 'Top';
@@ -37,15 +35,11 @@ class Experience extends MY_Model {
 		// $kind[5] = 'Other';
 
 		$this->load->model('kind');
-
 		$data = $this->kind->get_all('id, title');
 		$kind = [];
-		foreach ($data as $value)
-		{
+		foreach ($data as $value){
 			$kind[$value['id']] = $value['title'];
 		}
-
-
 		return $kind;
 	}
 }

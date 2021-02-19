@@ -63,7 +63,7 @@ class Experiences extends Admin_Controller {
 			if (!empty($result['thumb_image_name']))
 			{
 				$data['image'] = $result['thumb_image_name'];
-				$data['image_url'] =  base_url('admin/experiences/picture/'. $id);
+				$data['image_url'] =  base_url('admin/experiences/picture/' . $id);
 			}
 
 			// var_dump($result);
@@ -74,19 +74,14 @@ class Experiences extends Admin_Controller {
 				$data['create_date'] = date('Y-m-d H:i:s');
 				$id = $this->experience->insert($data);
 			}
-			// var_dump($data['image_url'] . $data['image']);
-			// die;
-			// $this->display_image($data['image_url'] . $data['image']);
-			// $this->experience->update($id, $data);
 
 			redirect("/admin/experiences/edit/$id", 'refresh');
 		}
 
-		if ($id)
-		{
+		if ($id){
 			$data['experience'] = $this->experience->get($id);
-		}else
-		{
+		}
+		else{
 			$data['experience'] = $this->experience->empty_object();
 		}
 
@@ -109,8 +104,6 @@ class Experiences extends Admin_Controller {
 		if ($data){
 			$filename = $data['image'];
 			$file_path = FCPATH . $relative_path . $filename;
-			// var_dump($file_path, file_exists($file_path), file_exists('/Users/acano/Developer/Web/myWebpage/public/assets/frontend/images/experience/Image_Processing_Camera_Scanner_thumb.jpg?v=602e8c47'));
-			// die;
 			$this->display_image($file_path);
 		}
 

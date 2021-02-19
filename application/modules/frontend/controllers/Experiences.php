@@ -16,7 +16,14 @@ class Experiences extends Public_Controller {
     public function index()
     {
         $this->load->model('admin/experience');
-        $data['experiences'] = $this->experience->get_all('', 'kind = 1');
+        $this->load->model('admin/kind');
+
+        $data = [];
+        $projects = $this->kind->get_all('id', "title = 'Experience'");
+        if ($projects && count($projects) == 1){
+            $id = $projects[0]['id'];
+            $data['experiences'] = $this->experience->get_all('', "kind = $id");
+        }
         $this->load_view('experiences', $data);
     }
 

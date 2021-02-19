@@ -1,0 +1,63 @@
+ERROR - 2021-02-19 04:20:58 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-19 04:25:17 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
+ERROR - 2021-02-19 04:25:17 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
+ERROR - 2021-02-19 04:25:17 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
+ERROR - 2021-02-19 04:25:17 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
+ERROR - 2021-02-19 04:26:03 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-19 04:30:56 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:30:56 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:30:56 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:30:56 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:30:56 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/%3Cdiv%20style=
+ERROR - 2021-02-19 04:36:37 --> Severity: error --> Exception: syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) /Users/acano/Developer/Web/myWebpage/application/libraries/Public_Controller.php 58
+ERROR - 2021-02-19 04:37:11 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:37:11 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:37:11 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:37:11 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:37:11 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/%3Cdiv%20style=
+ERROR - 2021-02-19 04:38:15 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:38:15 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:38:15 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:38:15 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:38:15 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/%3Cdiv%20style=
+ERROR - 2021-02-19 04:39:55 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:39:55 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:39:55 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:39:55 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:39:55 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/%3Cdiv%20style=
+ERROR - 2021-02-19 04:41:10 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:41:10 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:41:10 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:41:10 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:41:10 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:41:10 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:41:10 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:41:10 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:41:10 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/%3Cdiv%20style=
+ERROR - 2021-02-19 04:45:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:45:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:45:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:45:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:45:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:45:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:45:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 21
+ERROR - 2021-02-19 04:45:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:45:17 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/%3Cdiv%20style=
+ERROR - 2021-02-19 04:45:51 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:45:51 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:45:51 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:45:51 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:15 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:15 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:15 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:15 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:17 --> Severity: Notice --> Trying to get property 'image_url' of non-object /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/experiences.php 22
+ERROR - 2021-02-19 04:46:24 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
+ERROR - 2021-02-19 04:46:24 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
+ERROR - 2021-02-19 04:46:24 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
+ERROR - 2021-02-19 04:46:24 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
+ERROR - 2021-02-19 04:46:33 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/education
+ERROR - 2021-02-19 04:46:33 --> 404 Page Not Found: /index

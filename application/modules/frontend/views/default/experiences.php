@@ -18,6 +18,8 @@
 	    <?php foreach ($experiences as $experience): ?>
         <div class="col-lg-12">
           <div class="text-left">
+
+            <!-- <img  height="400px" src="<?= $experience->image_url?>"/> -->
             <h3><?= $experience['title'] ?></h3>
             <p class="lead mb-0"><?= $experience['description'] ?></p>
             <div class="text-right">
