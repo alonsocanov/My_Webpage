@@ -72,7 +72,7 @@
 								<div class="form-group">
 									<label>Video</label>
 									<h6><img  height="200px" src="<?= $experience->video_url; ?>"/></h6>
-									<h6><?= (empty($experience->ivideo_url))? 'No Video' : 'Current Video'?></h6>
+									<h6><?= (empty($experience->video_url))? 'No Video' : 'Current Video'?></h6>
 									<input type='file' class="form-control" placeholder="Upload Video" id="video" name="video" value="<?=$experience->video?>">
 								</div>
 								<div class="form-group">
@@ -84,13 +84,15 @@
 									<input class="form-control" placeholder="Enter url" id="faicon" name="faicon"  value="<?=$experience->faicon?>">
 								</div>
 								<div class="form-group">
-									<label>Start date</label>
-									<input class="form-control" placeholder="Enter start date" id="start_date" name="start_date"  value="<?=$experience->start_date?>">
+									<label><?=($kinds[$experience->kind] == 'Experience')? 'Start date': 'Creation date'?></label>
+									<input type="date" class="form-control" placeholder="Enter start date" id="start_date" name="start_date"  value="<?=$experience->start_date?>">
 								</div>
-								<div class="form-group">
-									<label>End date</label>
-									<input class="form-control" placeholder="Enter end date" id="end_date" name="end_date"  value="<?=$experience->end_date?>">
-								</div>
+								<?php if ($kinds[$experience->kind] == 'Experience'): ?>
+									<div class="form-group">
+										<label>End date</label>
+										<input type="date" class="form-control" placeholder="Enter end date" id="end_date" name="end_date"  value="<?=$experience->end_date?>">
+									</div>
+								<? endif; ?>
 
 								<div class="form-group">
 									<label>Content</label>
