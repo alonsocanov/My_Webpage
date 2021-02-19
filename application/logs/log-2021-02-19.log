@@ -61,3 +61,4 @@ ERROR - 2021-02-19 04:46:24 --> Severity: Notice --> Undefined index: image_name
 ERROR - 2021-02-19 04:46:24 --> Severity: Notice --> Undefined index: image_name /Users/acano/Developer/Web/myWebpage/application/modules/frontend/views/default/frontend.php 42
 ERROR - 2021-02-19 04:46:33 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/education
 ERROR - 2021-02-19 04:46:33 --> 404 Page Not Found: /index
+ERROR - 2021-02-19 04:48:26 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/education
