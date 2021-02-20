@@ -85,12 +85,12 @@
 								</div>
 								<div class="form-group">
 									<label><?=($kinds[$experience->kind] == 'Experience')? 'Start date': 'Creation date'?></label>
-									<input type="date" class="form-control" placeholder="Enter start date" id="start_date" name="start_date"  value="<?=$experience->start_date?>">
+									<input type="date" class="form-control" placeholder="Enter start date format <?=($kinds[$experience->kind] == 'Experience')? 'MM-YYYY': 'YYYY'?> " id="start_date" name="start_date"  required pattern="<?=($kinds[$experience->kind] == 'Experience')? '\d{2}-\d{4}': '\d{4}'?>" value="<?=$experience->start_date?>">
 								</div>
 								<?php if ($kinds[$experience->kind] == 'Experience'): ?>
 									<div class="form-group">
 										<label>End date</label>
-										<input type="date" class="form-control" placeholder="Enter end date" id="end_date" name="end_date"  value="<?=$experience->end_date?>">
+										<input type="date" class="form-control" placeholder="Enter end date in format MM-YYYY" id="end_date" name="end_date" required pattern="\d{2}-\d{4}" value="<?=$experience->end_date?>">
 									</div>
 								<? endif; ?>
 

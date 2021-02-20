@@ -81,7 +81,7 @@
 									<th>Kind</th>
 									<th>Description</th>
 									<th>Priority</th>
-									<th>Last Update</th>
+									<th>Date</th>
 									<th>Action</th>
 								</tr>
 							</thead>
@@ -93,7 +93,7 @@
 											<td><?=$kinds[$list['kind']]?></td>
 											<td><?=$list['description']?></td>
 											<td><?=$priorities[$list['priority']]?></td>
-											<td><?=$list['last_update']?></td>
+											<td><?=$list['start_date']?> - <?=date_format(date_create($list['end_date']), 'M Y')?></td>
 											<td>
 												<a href="<?= base_url('admin/experiences/edit/'.$list['id']) ?>" class="btn btn-info">edit</a>
 												<a href="<?= base_url('admin/experiences/delete/'.$list['id']) ?>" class="btn btn-danger">delete</a>
@@ -106,7 +106,7 @@
 										<td>No data</td>
 										<td>No data</td>
 										<td>No data</td>
-										<td>No data</td>
+										<th>No Data</th>
 										<td>
 											<a  href="<?= base_url('admin/experiences/create') ?>" class="btn btn-success">Add a new</a>
 										</td>
@@ -119,7 +119,7 @@
 									<th>Kind</th>
 									<th>Description</th>
 									<th>Priority</th>
-									<th>Last Update</th>
+									<th>Date</th>
 									<th>Action</th>
 								</tr>
 							</tfooter>

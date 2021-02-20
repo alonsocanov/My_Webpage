@@ -47,27 +47,38 @@ class Experiences extends Admin_Controller {
 			$data['video_url'] = $this->input->post('video_url');
 			$data['url'] = $this->input->post('url');
 			$data['faicon'] = $this->input->post('faicon');
-			$data['start_date'] = $this->input->post('start_date');
-			$data['end_date'] = $this->input->post('end_date');
 			$data['location'] = $this->input->post('location');
 			$data['content'] = $this->input->post('content');
-
-			$relative_path = 'assets/frontend/images/experience/';
-			$desired_file_name = str_replace(' ', '_', $data['title']);
-			$delete_original = False;
-			$field_name = 'image';
-			$resolution = [400, 400];
-			$preserve_type = FALSE;
-
-			$result = $this->upload_image($relative_path, $desired_file_name, $delete_original, $field_name, $resolution, $preserve_type);
-			if (!empty($result['thumb_image_name']))
-			{
-				$data['image'] = $result['thumb_image_name'];
-				$data['image_url'] =  base_url('admin/experiences/picture/' . $id);
+			if (!($this->input->post('start_date'))){
+				$data['start_date'] = '';
+			}else{
+				$data['start_date'] = date('Y-m-d', strtotime('01-'.$this->input->post('start_date')));
 			}
 
-			// var_dump($result);
-			// die;
+			if (!($this->input->post('end_date'))){
+				$data['end_date'] = '';
+			}else{
+				$data['end_date'] = date('Y-m-d', strtotime('01-'.$this->input->post('end_date')));
+			}
+
+
+			if ($this->input->post('image')){
+				$relative_path = 'assets/frontend/images/experience/';
+				$desired_file_name = str_replace(' ', '_', $data['title']);
+				$delete_original = False;
+				$field_name = 'image';
+				$resolution = [400, 400];
+				$preserve_type = FALSE;
+
+				$result = $this->upload_image($relative_path, $desired_file_name, $delete_original, $field_name, $resolution, $preserve_type);
+				if (!empty($result['thumb_image_name']))
+				{
+					$data['image'] = $result['thumb_image_name'];
+					$data['image_url'] =  base_url('admin/experiences/picture/' . $id);
+				}
+			}
+
+
 			if ($id){
 				$this->experience->update($data, $id);
 			} else{
@@ -80,6 +91,12 @@ class Experiences extends Admin_Controller {
 
 		if ($id){
 			$data['experience'] = $this->experience->get($id);
+			$data['experience']->start_date = date_format(date_create($data['experience']->start_date), 'm-Y');
+			if($data['experience']->end_date == '0000-00-00'){
+				$data['experience']->end_date = '';
+			}else{
+				$data['experience']->end_date = date_format(date_create($data['experience']->end_date), 'm-Y');
+			}
 		}
 		else{
 			$data['experience'] = $this->experience->empty_object();
@@ -88,9 +105,6 @@ class Experiences extends Admin_Controller {
 		$this->load->helper(array('form','ui'));
 		$data['priorities'] = $this->experience->priority();
 		$data['kinds'] = $this->experience->kind();
-
-		// var_dump($id);
-		// die;
 
 
 		$this->load_view("experience/experience", $data);

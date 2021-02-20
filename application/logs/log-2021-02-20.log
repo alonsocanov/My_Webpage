@@ -1,0 +1,20 @@
+ERROR - 2021-02-20 00:06:36 --> Severity: Warning --> date_format() expects parameter 1 to be DateTimeInterface, string given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 88
+ERROR - 2021-02-20 00:07:03 --> Severity: Warning --> date_format() expects parameter 1 to be DateTimeInterface, string given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experience.php 88
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_create() expects parameter 2 to be DateTimeZone, string given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_format() expects exactly 2 parameters, 1 given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_create() expects parameter 2 to be DateTimeZone, string given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_format() expects exactly 2 parameters, 1 given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_create() expects parameter 2 to be DateTimeZone, string given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_format() expects exactly 2 parameters, 1 given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_create() expects parameter 2 to be DateTimeZone, string given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_format() expects exactly 2 parameters, 1 given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_create() expects parameter 2 to be DateTimeZone, string given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_format() expects exactly 2 parameters, 1 given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_create() expects parameter 2 to be DateTimeZone, string given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:10:57 --> Severity: Warning --> date_format() expects exactly 2 parameters, 1 given /Users/acano/Developer/Web/myWebpage/application/modules/admin/views/default/experience/experiences.php 96
+ERROR - 2021-02-20 00:20:31 --> Severity: error --> Exception: Cannot use object of type stdClass as array /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 83
+ERROR - 2021-02-20 00:27:37 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-20 00:40:04 --> Severity: Warning --> date_format() expects parameter 1 to be DateTimeInterface, bool given /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 50
+ERROR - 2021-02-20 00:42:53 --> Severity: Notice --> A non well formed numeric value encountered /Users/acano/Developer/Web/myWebpage/application/modules/admin/controllers/Experiences.php 50
+ERROR - 2021-02-20 00:53:27 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-20 00:55:07 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"

@@ -63,3 +63,69 @@ ERROR - 2021-02-19 04:46:33 --> 404 Page Not Found: ../modules/frontend/controll
 ERROR - 2021-02-19 04:46:33 --> 404 Page Not Found: /index
 ERROR - 2021-02-19 04:48:26 --> 404 Page Not Found: ../modules/frontend/controllers/Frontend/education
 ERROR - 2021-02-19 19:55:37 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-19 20:33:56 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-19 23:25:54 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-19 23:26:31 --> Error uploading(assets/frontend/images/experience/): "<p>You did not select a file to upload.<\/p>"
+ERROR - 2021-02-19 23:37:48 --> Severity: Warning --> date_format() expects parameter 1 to be DateTimeInterface, string given /Users/acano/Developer/Web/myWebpage/application/database/migrations/011_Experience.php 115
+ERROR - 2021-02-19 23:39:17 --> Severity: error --> Exception: Call to undefined function STR_TO_DATE() /Users/acano/Developer/Web/myWebpage/application/database/migrations/011_Experience.php 115
+ERROR - 2021-02-19 23:39:40 --> Query error: Table 'experience' already exists - Invalid query: CREATE TABLE `experience` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`kind` INT(16) NOT NULL,
+	`title` VARCHAR(64) NULL,
+	`description` LONGTEXT NULL,
+	`priority` INT(11) NULL,
+	`image` VARCHAR(128) NULL,
+	`image_url` VARCHAR(254) NULL,
+	`video` VARCHAR(128) NULL,
+	`video_url` VARCHAR(254) NULL,
+	`url` VARCHAR(254) NULL,
+	`faicon` VARCHAR(32) NULL,
+	`start_date` DATE NULL,
+	`end_date` DATE NULL,
+	`location` VARCHAR(64) NULL,
+	`content` LONGTEXT NULL,
+	`last_update` TIMESTAMP NOT NULL,
+	`create_date` TIMESTAMP NOT NULL,
+	CONSTRAINT `pk_experience` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
+ERROR - 2021-02-19 23:40:07 --> Query error: Table 'experience' already exists - Invalid query: CREATE TABLE `experience` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`kind` INT(16) NOT NULL,
+	`title` VARCHAR(64) NULL,
+	`description` LONGTEXT NULL,
+	`priority` INT(11) NULL,
+	`image` VARCHAR(128) NULL,
+	`image_url` VARCHAR(254) NULL,
+	`video` VARCHAR(128) NULL,
+	`video_url` VARCHAR(254) NULL,
+	`url` VARCHAR(254) NULL,
+	`faicon` VARCHAR(32) NULL,
+	`start_date` DATE NULL,
+	`end_date` DATE NULL,
+	`location` VARCHAR(64) NULL,
+	`content` LONGTEXT NULL,
+	`last_update` TIMESTAMP NOT NULL,
+	`create_date` TIMESTAMP NOT NULL,
+	CONSTRAINT `pk_experience` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
+ERROR - 2021-02-19 23:40:57 --> Severity: error --> Exception: Call to undefined function STR_TO_DATE() /Users/acano/Developer/Web/myWebpage/application/database/migrations/011_Experience.php 115
+ERROR - 2021-02-19 23:42:39 --> Query error: Table 'experience' already exists - Invalid query: CREATE TABLE `experience` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`kind` INT(16) NOT NULL,
+	`title` VARCHAR(64) NULL,
+	`description` LONGTEXT NULL,
+	`priority` INT(11) NULL,
+	`image` VARCHAR(128) NULL,
+	`image_url` VARCHAR(254) NULL,
+	`video` VARCHAR(128) NULL,
+	`video_url` VARCHAR(254) NULL,
+	`url` VARCHAR(254) NULL,
+	`faicon` VARCHAR(32) NULL,
+	`start_date` DATE NULL,
+	`end_date` DATE NULL,
+	`location` VARCHAR(64) NULL,
+	`content` LONGTEXT NULL,
+	`last_update` TIMESTAMP NOT NULL,
+	`create_date` TIMESTAMP NOT NULL,
+	CONSTRAINT `pk_experience` PRIMARY KEY(`id`)
+) DEFAULT CHARACTER SET = utf8 COLLATE = utf8_general_ci
