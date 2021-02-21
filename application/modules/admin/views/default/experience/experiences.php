@@ -62,7 +62,6 @@
 			</div>
 		</div>
 
-
 	</div>
 	<!-- /.row -->
 	<div class="row">
@@ -93,7 +92,7 @@
 											<td><?=$kinds[$list['kind']]?></td>
 											<td><?=$list['description']?></td>
 											<td><?=$priorities[$list['priority']]?></td>
-											<td><?=$list['start_date']?> - <?=date_format(date_create($list['end_date']), 'M Y')?></td>
+											<td><?=$list['start_date']?> - <?=$list['end_date']?></td>
 											<td>
 												<a href="<?= base_url('admin/experiences/edit/'.$list['id']) ?>" class="btn btn-info">edit</a>
 												<a href="<?= base_url('admin/experiences/delete/'.$list['id']) ?>" class="btn btn-danger">delete</a>
@@ -108,7 +107,7 @@
 										<td>No data</td>
 										<th>No Data</th>
 										<td>
-											<a  href="<?= base_url('admin/experiences/create') ?>" class="btn btn-success">Add a new</a>
+											<a href="<?= base_url('admin/experiences/create') ?>" class="btn btn-success">Add a new</a>
 										</td>
 									</tr>
 								<?php endif; ?>

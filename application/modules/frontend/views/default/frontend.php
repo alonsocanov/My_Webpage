@@ -6,7 +6,6 @@
         <div class="col-xl-9 mx-auto">
           <h1 class="mb-5">Explore my profile</h1>
         </div>
-
       </div>
     </div>
   </header>
@@ -27,7 +26,7 @@
             <p class="lead mb-0"><?= $item['description'] ?></p>
           </div>
         </div>
-        <?php endforeach; ?>
+      <?php endforeach; ?>
       </div>
     </div>
   </section>
@@ -37,18 +36,16 @@
     <div class="container-fluid p-0">
     <h1>Projects</h1>
 	  <?php $odd = FALSE; ?>
-	  <?php foreach ($projects as $project): ?>
-      <div class="row no-gutters">
-        <div class="col-lg-6 <?= ($odd)?'order-lg-2':'';?> text-white showcase-images" style="background-image: url(<?=base_url('assets/frontend/default/images/') . $item['image_name']?>);" alt="<?= $item['title'] ?>"></div>
-        <div class="col-lg-6 <?= ($odd)?'order-lg-1':'';?> my-auto showcase-text">
-          <h2><?= $project['title'] ?></h2>
-          <p class="lead mb-0"><?= $project['description'] ?></p>
+      <?php foreach ($projects as $project): ?>
+        <div class="row no-gutters">
+          <div class="col-lg-6 <?= ($odd)?'order-lg-2':'';?> text-white showcase-images" style="background-image: url(<?=base_url('assets/frontend/default/images/') . $item['image']?>);" alt="<?= $item['title'] ?>"></div>
+          <div class="col-lg-6 <?= ($odd)?'order-lg-1':'';?> my-auto showcase-text">
+            <h2><?= $project['title'] ?></h2>
+            <p class="lead mb-0"><?= $project['description'] ?></p>
+          </div>
         </div>
-      </div>
-      <?php ($odd) ? $odd = FALSE : $odd = TRUE; ?>
-
+        <?php ($odd) ? $odd = FALSE : $odd = TRUE; ?>
       <?php endforeach; ?>
-
     </div>
   </section>
 
@@ -65,9 +62,7 @@
             <p class="font-weight-light mb-0">"<?= $item['description'] ?>"</p>
           </div>
         </div>
-		<?php endforeach; ?>
-
-
+		  <?php endforeach; ?>
       </div>
     </div>
   </section>
