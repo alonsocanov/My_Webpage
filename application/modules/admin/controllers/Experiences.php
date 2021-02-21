@@ -15,9 +15,10 @@ class Experiences extends Admin_Controller {
 		$data['experiences'] = $this->experience->get_all();
 		$data['priorities'] = $this->experience->priority();
 		$data['kinds'] = $this->experience->kind();
-		$data['total_experiences'] 	= $this->experience->count_all('kind = 1');
+		$data['total_projects'] = $this->experience->count_all('kind = 1');
+		$data['total_experiences'] 	= $this->experience->count_all('kind = 2');
 
-		$data['total_projects'] = $this->experience->count_all('kind = 2');
+
 
 
 
