@@ -95,8 +95,6 @@ class Experiences extends Admin_Controller {
 
 		if ($id){
 			$data['experience'] = $this->experience->get($id);
-			$data['experience']->start_date = date_format(date_create($data['experience']->start_date), 'm-Y');
-
 			if($data['experience']->start_date == '0000-00-00'){
 				$data['experience']->start_date = '';
 			}else if ($data['experience']->kind == '1'){
