@@ -51,7 +51,7 @@ class Experiences extends Admin_Controller {
 			$data['content'] = $this->input->post('content');
 			if (!($this->input->post('start_date'))){
 				$data['start_date'] = '';
-			}else if ($data['kind'] == '1'){// if it is experience
+			}else if ($data['kind'] == '2'){// if it is experience
 				$data['start_date'] = date('Y-m-d', strtotime('01-'.$this->input->post('start_date')));
 			}else{// only year
 				$data['start_date'] = date('Y-m-d', strtotime('01-01-'.$this->input->post('start_date')));
@@ -59,7 +59,7 @@ class Experiences extends Admin_Controller {
 
 			if (!($this->input->post('end_date'))){
 			$data['end_date'] = '';
-		}else if ($data['kind'] == '1'){
+		}else if ($data['kind'] == '2'){
 			$data['end_date'] = date('Y-m-d', strtotime('01-'.$this->input->post('end_date')));
 			}else{// only year
 				$data['end_date'] = date('Y-m-d', strtotime('01-01'.$this->input->post('end_date')));
@@ -97,7 +97,7 @@ class Experiences extends Admin_Controller {
 			$data['experience'] = $this->experience->get($id);
 			if($data['experience']->start_date == '0000-00-00'){
 				$data['experience']->start_date = '';
-			}else if ($data['experience']->kind == '1'){
+			}else if ($data['experience']->kind == '2'){
 				$data['experience']->start_date = date_format(date_create($data['experience']->start_date), 'm-Y');
 			}else{
 				$data['experience']->start_date = date_format(date_create($data['experience']->start_date), 'Y');
@@ -105,7 +105,7 @@ class Experiences extends Admin_Controller {
 
 			if($data['experience']->end_date == '0000-00-00'){
 				$data['experience']->end_date = '';
-			}else if ($data['experience']->kind == '1'){
+			}else if ($data['experience']->kind == '2'){
 				$data['experience']->end_date = date_format(date_create($data['experience']->end_date), 'm-Y');
 			}else{
 				$data['experience']->end_date = date_format(date_create($data['experience']->end_date), 'Y');
