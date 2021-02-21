@@ -37,8 +37,8 @@ class Experiences extends Admin_Controller {
 		$this->load->model('experience');
 
 		if ($this->input->post('title')) {
-			$data['title'] = $this->input->post('title');
-			$data['kind'] = $this->input->post('kind');
+		$data['title'] = $this->input->post('title');
+		$data['kind'] = $this->input->post('kind');
 			$data['description'] = $this->input->post('description');
 			$data['priority'] = $this->input->post('priority');
 			// $data['image'] = $this->input->post('image');
@@ -51,20 +51,24 @@ class Experiences extends Admin_Controller {
 			$data['content'] = $this->input->post('content');
 			if (!($this->input->post('start_date'))){
 				$data['start_date'] = '';
-			}else{
+			}else if ($data['kind'] == '1'){// if it is experience
 				$data['start_date'] = date('Y-m-d', strtotime('01-'.$this->input->post('start_date')));
+			}else{// only year
+				$data['start_date'] = date('Y-m-d', strtotime('01-01-'.$this->input->post('start_date')));
 			}
 
 			if (!($this->input->post('end_date'))){
-				$data['end_date'] = '';
-			}else{
-				$data['end_date'] = date('Y-m-d', strtotime('01-'.$this->input->post('end_date')));
+			$data['end_date'] = '';
+		}else if ($data['kind'] == '1'){
+			$data['end_date'] = date('Y-m-d', strtotime('01-'.$this->input->post('end_date')));
+			}else{// only year
+				$data['end_date'] = date('Y-m-d', strtotime('01-01'.$this->input->post('end_date')));
 			}
 
 
 			if ($this->input->post('image')){
-				$relative_path = 'assets/frontend/images/experience/';
-				$desired_file_name = str_replace(' ', '_', $data['title']);
+			$relative_path = 'assets/frontend/images/experience/';
+			$desired_file_name = str_replace(' ', '_', $data['title']);
 				$delete_original = False;
 				$field_name = 'image';
 				$resolution = [400, 400];
@@ -92,10 +96,21 @@ class Experiences extends Admin_Controller {
 		if ($id){
 			$data['experience'] = $this->experience->get($id);
 			$data['experience']->start_date = date_format(date_create($data['experience']->start_date), 'm-Y');
+
+			if($data['experience']->start_date == '0000-00-00'){
+				$data['experience']->start_date = '';
+			}else if ($data['experience']->kind == '1'){
+				$data['experience']->start_date = date_format(date_create($data['experience']->start_date), 'm-Y');
+			}else{
+				$data['experience']->start_date = date_format(date_create($data['experience']->start_date), 'Y');
+			}
+
 			if($data['experience']->end_date == '0000-00-00'){
 				$data['experience']->end_date = '';
-			}else{
+			}else if ($data['experience']->kind == '1'){
 				$data['experience']->end_date = date_format(date_create($data['experience']->end_date), 'm-Y');
+			}else{
+				$data['experience']->end_date = date_format(date_create($data['experience']->end_date), 'Y');
 			}
 		}
 		else{
