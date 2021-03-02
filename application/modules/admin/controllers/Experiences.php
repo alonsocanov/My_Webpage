@@ -18,12 +18,6 @@ class Experiences extends Admin_Controller {
 		$data['total_projects'] = $this->experience->count_all('kind = 1');
 		$data['total_experiences'] 	= $this->experience->count_all('kind = 2');
 
-
-
-
-
-
-
 		$this->load_view("experience/experiences", $data);
 
 	}
@@ -134,8 +128,6 @@ class Experiences extends Admin_Controller {
 			$file_path = FCPATH . $relative_path . $filename;
 			$this->display_image($file_path);
 		}
-
-
 
 	}
 
